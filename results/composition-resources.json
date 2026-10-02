@@ -1,0 +1,8 @@
+{
+  "address_space_limit_bytes": 3221225472,
+  "cpu_seconds": 1.065884809,
+  "peak_rss_kib": 104876,
+  "stage": "composition",
+  "wall_seconds": 1.0659333410000045,
+  "workers": 1
+}

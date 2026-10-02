@@ -1,0 +1,19 @@
+case,witness,correct,rejected_claim,detected
+endpoint-switch,"B=0,r=2; reset blocks 01|10",2,1,1
+erase-resets,(01)^omega; erase each 0 block; image 1^omega,false,true,1
+unbounded-blocks,0 1 0 11 0 111 ... has no finite miss bound,false,true,1
+observation-before-filter,"periods 01 and 0110; erase 1, map 0 to x; B=1",false,true,1
+local-to-global-fairness,two individually B=0 single-action loops; tagged interleaving B=0,false,true,1
+empty-fair-must,same two-loop product at B=0; must(True)=viable AND all(True),false,true,1
+disable-reset,"debt=(0,1), enabled={0}, serve 0, B=1","[0, 0]","[0, 1]",1
+reject-at-equality,"debt=(0,0), enabled={0,1}, serve 0, B=1","[0, 1]",null,1
+clamp-overflow,"debt=(0,1), enabled={0,1}, serve 0, B=1",null,"[0, 1]",1
+path-versus-strategy,"0 -> good loop or bad loop, same scheduler action; eventually good",false,true,1
+dilation-is-not-reflection,source period 0110 violates B=1; identity blocks allowed for r=2; target F_2(1)=4,false,true,1
+erase-action-bisimulation,"constant observations, only action 0 versus only action 1",false,true,1
+certificate-missing-successor,graph=0->0; vertex 1 terminal,false,true,1
+certificate-fabricated-edge,graph=0->0; vertex 1 terminal,false,true,1
+certificate-omitted-outside-rank,graph=0->0; vertex 1 terminal,false,true,1
+certificate-boolean-rank,graph=0->0; vertex 1 terminal,false,true,1
+certificate-cyclic-descending-rank,graph=0->0; vertex 1 terminal,false,true,1
+certificate-duplicate-live-vertex,graph=0->0; vertex 1 terminal,false,true,1

@@ -1,0 +1,81 @@
+{
+  "graph": [
+    [
+      0
+    ],
+    []
+  ],
+  "invalid": {
+    "boolean-rank": {
+      "live": [
+        0
+      ],
+      "rank": {
+        "1": true
+      },
+      "successor": {
+        "0": 0
+      }
+    },
+    "cyclic-descending-rank": {
+      "live": [],
+      "rank": {
+        "0": 0,
+        "1": 0
+      },
+      "successor": {}
+    },
+    "duplicate-live-vertex": {
+      "live": [
+        0,
+        0
+      ],
+      "rank": {
+        "1": 0
+      },
+      "successor": {
+        "0": 0
+      }
+    },
+    "fabricated-edge": {
+      "live": [
+        0
+      ],
+      "rank": {
+        "1": 0
+      },
+      "successor": {
+        "0": 1
+      }
+    },
+    "missing-successor": {
+      "live": [
+        0
+      ],
+      "rank": {
+        "1": 0
+      },
+      "successor": {}
+    },
+    "omitted-outside-rank": {
+      "live": [
+        0
+      ],
+      "rank": {},
+      "successor": {
+        "0": 0
+      }
+    }
+  },
+  "valid": {
+    "live": [
+      0
+    ],
+    "rank": {
+      "1": 0
+    },
+    "successor": {
+      "0": 0
+    }
+  }
+}

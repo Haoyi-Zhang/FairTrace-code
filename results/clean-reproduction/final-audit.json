@@ -1,0 +1,58 @@
+{
+  "artifact": {
+    "clean_comparison": {
+      "matched_scientific_files": 60,
+      "mismatches": 0,
+      "resource_comparison": "excluded: CPU, wall time and peak RSS are machine-dependent"
+    },
+    "clean_cpu_seconds_sum": 72.586790086,
+    "clean_maximum_stage_peak_rss_kib": 104752,
+    "clean_stage_count": 22,
+    "clean_wall_seconds_sum": 72.59287028400058,
+    "endpoint_floor_formula_checks": 1980,
+    "endpoint_lasso_witnesses": 1980,
+    "endpoint_reflection_threshold_checks": 3960,
+    "retained_stage_count": 22,
+    "unit_tests_passed": 45
+  },
+  "delivery_root_entries": [
+    "CURRENT-STATE.md",
+    "artifact",
+    "paper",
+    "research-plan.md"
+  ],
+  "literature": {
+    "external_resource_rows": 46,
+    "scholarly_resource_rows": 40,
+    "unique_scholarly_stable_ids": 40
+  },
+  "paper": {
+    "all_fonts_embedded": true,
+    "bibliography_entries": 40,
+    "cited_unique": 40,
+    "contact_sheet_groups": 5,
+    "critical_warning_scan_empty": false,
+    "native_tikz_figures": 4,
+    "outer_20px_ink_pages": [],
+    "pages": 50,
+    "proof_appendices": 3,
+    "render_dpi": 220,
+    "rendered_pages": 50,
+    "tables": 10,
+    "targeted_full_size_pages": [
+      7,
+      24
+    ],
+    "top_level_sections": 9
+  },
+  "scope": {
+    "f3_status": "No experiment or obligation named F3 is defined in the supplied manuscript or artifact; no F3 result is claimed.",
+    "model": "deterministic finite-state non-erasing step expanders",
+    "not_claimed": [
+      "production compiler correctness",
+      "scheduler-strategy synthesis",
+      "probabilistic security",
+      "timing security"
+    ]
+  }
+}

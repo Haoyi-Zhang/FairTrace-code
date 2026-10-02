@@ -1,0 +1,107 @@
+{
+  "forward": {
+    "parents": {
+      "1,0,1": {
+        "distance": 1,
+        "parent": [
+          0,
+          0,
+          0
+        ],
+        "symbol": 1
+      }
+    },
+    "states": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        1
+      ]
+    ]
+  },
+  "live": {
+    "live": [
+      0,
+      1
+    ],
+    "rank": {},
+    "successor": {
+      "0": 0,
+      "1": 0
+    }
+  },
+  "parameters": {
+    "source_bound": 1,
+    "source_debt": 0,
+    "target_bound": 1,
+    "target_debt": 0
+  },
+  "schema": "fair-contract-certificate-1",
+  "target_safe": {
+    "parents": {
+      "1,0,1": {
+        "distance": 1,
+        "parent": [
+          0,
+          0,
+          0
+        ],
+        "symbol": 1
+      }
+    },
+    "states": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        1
+      ]
+    ]
+  },
+  "transducer": {
+    "initial": 0,
+    "input_resets": [
+      0,
+      1
+    ],
+    "transitions": [
+      [
+        {
+          "next": 0,
+          "output": [
+            0
+          ]
+        },
+        {
+          "next": 0,
+          "output": [
+            1
+          ]
+        }
+      ],
+      [
+        {
+          "next": 0,
+          "output": [
+            0
+          ]
+        },
+        {
+          "next": 1,
+          "output": [
+            0
+          ]
+        }
+      ]
+    ]
+  }
+}

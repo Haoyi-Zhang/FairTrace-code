@@ -1,0 +1,2688 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(./acmart.cls
+Document Class: acmart 2026/08/16 v2.20 Typesetting articles for the Associatio
+n for Computing Machinery
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/keyval.tex))))
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsart.cls
+Document Class: amsart 2020/05/29 v2.20.6
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/totpages/totpages.sty
+(/usr/share/texlive/texmf-dist/tex/latex/everyshi/everyshi.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
+(/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperxmp/hyperxmp.sty
+(/usr/share/texlive/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/ifdraft.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/ncctools/manyfoot.sty
+(/usr/share/texlive/texmf-dist/tex/latex/ncctools/nccfoots.sty))
+(/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/cmap/cmap.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty<<t1.cmap>>)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/libertine.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/fontaxes/fontaxes.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/LinLibertine_I.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/inconsolata/zi4.sty
+`inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe))
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/newtxmath.sty
+`newtxmath' v1.754, 2024/09/22 Math macros based originally on txfonts (msharpe
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/centernot.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kastrup/binhex.tex)
+amsthm NOT loaded
+) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/pifont.sty
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/upzd.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/upsy.fd))
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption-ams-smf.sto)))
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
+Excluding comment 'comment') Excluding comment 'CCSXML'
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
+Special comment 'acks'
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/T1LinuxLibertineT-TLF.fd))
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered
+.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex))
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.
+code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypositioning.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarycalc.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathreplacing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
+e.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathreplacing.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryfit.code.tex) Excluding comment 'screenonly'
+Include comment 'printonly' Include comment 'anonsuppress'
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+No file main.aux.
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/omlnxlmi.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/untxexa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/lmsntxsy.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/lmxntxexx.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/OT1LinuxLibertineT-TLF.fd)<<
+ot1.cmap>><<oml.cmap>>
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/untxmia.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsym.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsyc.fd)
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/T1LinuxBiolinumT-TLF.fd)
+(./sections/introduction.tex
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg)
+[1.1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texm
+f-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}{/usr/share/texlive/texmf-dist
+/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{/usr/share/texlive/texmf-dist/fonts
+/enc/dvips/libertine/lbtn_oexx6f.enc}]
+[2.2{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}]
+
+LaTeX Warning: Reference `sec:semantics' on page 3 undefined on input line 37.
+
+
+LaTeX Warning: Reference `sec:regular' on page 3 undefined on input line 37.
+
+
+LaTeX Warning: Reference `sec:synthesis' on page 3 undefined on input line 37.
+
+
+LaTeX Warning: Reference `sec:stateless' on page 3 undefined on input line 37.
+
+
+LaTeX Warning: Reference `sec:reactive' on page 3 undefined on input line 37.
+
+
+LaTeX Warning: Reference `sec:validation' on page 3 undefined on input line 37.
+
+
+
+LaTeX Warning: Reference `sec:related' on page 3 undefined on input line 37.
+
+
+LaTeX Warning: Reference `sec:conclusion' on page 3 undefined on input line 37.
+
+
+) (./sections/semantics.tex
+
+LaTeX Warning: Reference `eq:counter' on page 3 undefined on input line 15.
+
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/OT1LinuxBiolinumT-TLF.fd)
+[3.3{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}{/
+usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_edcawa.enc}]
+
+LaTeX Warning: Reference `eq:counter' on page 4 undefined on input line 33.
+
+
+[4.4{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_ncsllp.enc}]
+[5.5{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_fygcup.enc}]
+
+LaTeX Warning: Reference `sec:reactive' on page 6 undefined on input line 124.
+
+) (./sections/regular.tex
+
+LaTeX Warning: Reference `sec:synthesis' on page 6 undefined on input line 4.
+
+
+LaTeX Warning: Reference `sec:semantics' on page 6 undefined on input line 14.
+
+
+LaTeX Warning: Reference `sec:reactive' on page 6 undefined on input line 25.
+
+
+[6.6] (./figures/regular-interface.tex)
+
+LaTeX Warning: Reference `eq:regularcontract' on page 7 undefined on input line
+ 43.
+
+
+LaTeX Warning: Reference `eq:forward' on page 7 undefined on input line 50.
+
+
+[7.7]
+
+LaTeX Warning: Reference `eq:gaplanguage' on page 8 undefined on input line 81.
+
+
+
+LaTeX Warning: Reference `eq:blockeffect' on page 8 undefined on input line 111
+.
+
+
+LaTeX Warning: Reference `sec:synthesis' on page 8 undefined on input line 111.
+
+
+
+[8.8]
+
+LaTeX Warning: Reference `eq:debtDP' on page 9 undefined on input line 162.
+
+
+[9.9]
+
+LaTeX Warning: Reference `eq:debtDP' on page 10 undefined on input line 177.
+
+
+LaTeX Warning: Reference `eq:blockeffect' on page 10 undefined on input line 17
+9.
+
+
+LaTeX Warning: Reference `eq:ceilingformula' on page 10 undefined on input line
+ 179.
+
+
+LaTeX Warning: Reference `eq:safeceiling' on page 10 undefined on input line 17
+9.
+
+
+LaTeX Warning: Reference `thm:interval-general' on page 10 undefined on input l
+ine 184.
+
+
+LaTeX Warning: Reference `thm:safe-algorithm' on page 10 undefined on input lin
+e 184.
+
+
+LaTeX Warning: Reference `sec:synthesis' on page 10 undefined on input line 189
+.
+
+) (./sections/synthesis.tex
+[10.10]
+
+LaTeX Warning: Reference `sec:reactive' on page 11 undefined on input line 33.
+
+
+LaTeX Warning: Reference `lem:fixed-reflection' on page 11 undefined on input l
+ine 35.
+
+
+[11.11]
+
+LaTeX Warning: Reference `eq:horizon' on page 12 undefined on input line 68.
+
+
+LaTeX Warning: Reference `lem:fixed-reflection' on page 12 undefined on input l
+ine 71.
+
+
+LaTeX Warning: Reference `lem:bounded-lasso' on page 12 undefined on input line
+ 71.
+
+
+LaTeX Warning: Reference `eq:invalidfloor' on page 12 undefined on input line 7
+1.
+
+
+LaTeX Warning: Reference `thm:safe-algorithm' on page 12 undefined on input lin
+e 74.
+
+
+LaTeX Warning: Reference `thm:floor-algorithm' on page 12 undefined on input li
+ne 74.
+
+
+LaTeX Warning: Reference `thm:interval-general' on page 12 undefined on input l
+ine 74.
+
+
+LaTeX Warning: Reference `eq:horizon' on page 12 undefined on input line 74.
+
+
+[12.12]
+
+LaTeX Warning: Reference `lem:fixed-reflection' on page 13 undefined on input l
+ine 83.
+
+
+LaTeX Warning: Reference `lem:fixed-reflection' on page 13 undefined on input l
+ine 93.
+
+
+[13.13]
+
+LaTeX Warning: Reference `thm:positive-certificate' on page 14 undefined on inp
+ut line 121.
+
+
+LaTeX Warning: Reference `lem:fixed-reflection' on page 14 undefined on input l
+ine 121.
+
+
+LaTeX Warning: Reference `sec:validation' on page 14 undefined on input line 12
+4.
+
+
+LaTeX Warning: Reference `tab:complexity' on page 14 undefined on input line 12
+7.
+
+
+[14.14]
+
+LaTeX Warning: Reference `prop:coordinatewise' on page 15 undefined on input li
+ne 180.
+
+) (./sections/stateless.tex
+
+LaTeX Warning: Reference `thm:interval-general' on page 15 undefined on input l
+ine 12.
+
+(./sections/classification.tex
+[15.15]
+
+LaTeX Warning: Reference `eq:mainquestion' on page 16 undefined on input line 1
+4.
+
+
+LaTeX Warning: Reference `fig:phase' on page 16 undefined on input line 20.
+
+(./figures/phase-contract.tex)
+
+LaTeX Warning: Reference `lem:gaps' on page 16 undefined on input line 40.
+
+
+LaTeX Warning: Reference `eq:mainquestion' on page 16 undefined on input line 4
+6.
+
+
+[16.16]
+
+LaTeX Warning: Reference `lem:gaps' on page 17 undefined on input line 66.
+
+
+LaTeX Warning: Reference `lem:imagegaps' on page 17 undefined on input line 66.
+
+
+
+LaTeX Warning: Reference `eq:zerodebt' on page 17 undefined on input line 87.
+
+
+LaTeX Warning: Reference `cor:zerodebt' on page 17 undefined on input line 91.
+
+
+LaTeX Warning: Reference `thm:interval' on page 17 undefined on input line 91.
+
+
+LaTeX Warning: Reference `eq:mainquestion' on page 17 undefined on input line 1
+01.
+
+
+[17.17]
+
+LaTeX Warning: Reference `eq:interval' on page 18 undefined on input line 113.
+
+
+LaTeX Warning: Reference `lem:zeroreset' on page 18 undefined on input line 116
+.
+
+
+LaTeX Warning: Reference `lem:resetful' on page 18 undefined on input line 116.
+
+
+
+LaTeX Warning: Reference `thm:interval' on page 18 undefined on input line 116.
+
+
+
+LaTeX Warning: Reference `lem:resetful' on page 18 undefined on input line 120.
+
+
+
+[18.18]
+
+LaTeX Warning: Reference `lem:zeroreset' on page 19 undefined on input line 175
+.
+
+
+LaTeX Warning: Reference `thm:interval' on page 19 undefined on input line 175.
+
+
+
+LaTeX Warning: Reference `thm:one' on page 19 undefined on input line 175.
+
+
+LaTeX Warning: Reference `thm:zero' on page 19 undefined on input line 175.
+
+) (./sections/algebra.tex
+
+LaTeX Warning: Reference `eq:canonical' on page 19 undefined on input line 13.
+
+
+LaTeX Warning: Reference `thm:interval' on page 19 undefined on input line 16.
+
+
+[19.19]
+
+LaTeX Warning: Reference `lem:profilecomposition' on page 20 undefined on input
+ line 67.
+
+
+LaTeX Warning: Reference `cor:canonical' on page 20 undefined on input line 69.
+
+
+
+[20.20]
+
+LaTeX Warning: Reference `thm:interval' on page 21 undefined on input line 101.
+
+
+
+LaTeX Warning: Reference `eq:leastbudget' on page 21 undefined on input line 10
+7.
+
+
+LaTeX Warning: Reference `eq:familyfeasible' on page 21 undefined on input line
+ 112.
+
+
+[21.21]
+
+LaTeX Warning: Reference `lem:gaps' on page 22 undefined on input line 140.
+
+)
+
+LaTeX Warning: Reference `def:endpoints' on page 22 undefined on input line 19.
+
+
+
+LaTeX Warning: Reference `eq:interval' on page 22 undefined on input line 19.
+
+
+[22.22]
+
+LaTeX Warning: Reference `thm:interval' on page 23 undefined on input line 33.
+
+
+LaTeX Warning: Reference `eq:stateless-true-floor' on page 23 undefined on inpu
+t line 33.
+
+
+LaTeX Warning: Reference `eq:interval' on page 23 undefined on input line 33.
+
+
+LaTeX Warning: Reference `thm:dilation' on page 23 undefined on input line 37.
+
+) (./sections/reactive.tex
+
+LaTeX Warning: Reference `eq:resetbit' on page 23 undefined on input line 20.
+
+
+[23.23] (./figures/microstep.tex)
+
+LaTeX Warning: Reference `eq:reset-expansion' on page 24 undefined on input lin
+e 56.
+
+
+LaTeX Warning: Reference `eq:low-expansion' on page 24 undefined on input line 
+56.
+
+
+[24.24]
+
+LaTeX Warning: Reference `thm:run-bijection' on page 25 undefined on input line
+ 75.
+
+
+LaTeX Warning: Reference `eq:low-expansion' on page 25 undefined on input line 
+82.
+
+
+LaTeX Warning: Reference `eq:fair-observation-equality' on page 25 undefined on
+ input line 82.
+
+
+LaTeX Warning: Reference `thm:fair-expansion' on page 25 undefined on input lin
+e 89.
+
+
+LaTeX Warning: Reference `eq:modes' on page 25 undefined on input line 89.
+
+
+LaTeX Warning: Reference `eq:fair-observation-equality' on page 25 undefined on
+ input line 92.
+
+
+LaTeX Warning: Reference `thm:run-bijection' on page 25 undefined on input line
+ 103.
+
+
+LaTeX Warning: Reference `cor:four-modes' on page 25 undefined on input line 10
+3.
+
+
+[25.25]
+
+LaTeX Warning: Reference `eq:noninterference' on page 26 undefined on input lin
+e 109.
+
+
+LaTeX Warning: Reference `thm:fair-expansion' on page 26 undefined on input lin
+e 122.
+
+
+LaTeX Warning: Reference `thm:fair-expansion' on page 26 undefined on input lin
+e 133.
+
+
+LaTeX Warning: Reference `prop:coordinatewise' on page 26 undefined on input li
+ne 139.
+
+
+LaTeX Warning: Reference `sec:synthesis' on page 26 undefined on input line 139
+.
+
+
+[26.26]
+[27.27]
+
+LaTeX Warning: Reference `lem:ready' on page 28 undefined on input line 186.
+
+
+LaTeX Warning: Reference `eq:resetbit' on page 28 undefined on input line 186.
+
+
+LaTeX Warning: Reference `thm:transport' on page 28 undefined on input line 186
+.
+
+
+LaTeX Warning: Reference `thm:bisimulation' on page 28 undefined on input line 
+192.
+
+
+LaTeX Warning: Reference `fig:viability' on page 28 undefined on input line 194
+.
+
+(./figures/viability.tex)) (./sections/validation.tex
+[28.28]
+
+LaTeX Warning: Reference `sec:regular' on page 29 undefined on input line 4.
+
+
+LaTeX Warning: Reference `sec:reactive' on page 29 undefined on input line 4.
+
+
+[29.29]
+
+LaTeX Warning: Reference `tab:regular-validation' on page 30 undefined on input
+ line 30.
+
+
+LaTeX Warning: Reference `sec:classification' on page 30 undefined on input lin
+e 57.
+
+
+LaTeX Warning: Reference `eq:stateless-true-floor' on page 30 undefined on inpu
+t line 81.
+
+
+LaTeX Warning: Reference `sec:stateless-regular-link' on page 30 undefined on i
+nput line 81.
+
+
+[30.30]
+
+LaTeX Warning: Reference `thm:large' on page 31 undefined on input line 83.
+
+
+LaTeX Warning: Reference `thm:one' on page 31 undefined on input line 83.
+
+
+LaTeX Warning: Reference `thm:zero' on page 31 undefined on input line 83.
+
+
+LaTeX Warning: Reference `tab:decision-validation' on page 31 undefined on inpu
+t line 88.
+
+
+[31.31]
+
+LaTeX Warning: Reference `thm:decision-packets' on page 32 undefined on input l
+ine 112.
+
+
+LaTeX Warning: Reference `tab:decision-validation' on page 32 undefined on inpu
+t line 116.
+
+
+LaTeX Warning: Reference `thm:regular-composition' on page 32 undefined on inpu
+t line 133.
+
+
+[32.32]
+
+LaTeX Warning: Reference `tab:expansion-validation' on page 33 undefined on inp
+ut line 141.
+
+
+LaTeX Warning: Reference `tab:aux-validation' on page 33 undefined on input lin
+e 165.
+
+
+LaTeX Warning: Reference `tab:claim-code' on page 33 undefined on input line 19
+1.
+
+
+LaTeX Warning: Reference `thm:interval-general' on page 33 undefined on input l
+ine 202.
+
+
+Underfull \hbox (badness 4403) in paragraph at lines 202--203
+[]|\T1/LinuxLibertineT-TLF/m/n/9 (+20) 407,040 fixed-bound com-par-isons across
+
+
+LaTeX Warning: Reference `lem:zero-cycle' on page 33 undefined on input line 20
+3.
+
+
+LaTeX Warning: Reference `thm:safe-algorithm' on page 33 undefined on input lin
+e 203.
+
+
+LaTeX Warning: Reference `lem:bounded-lasso' on page 33 undefined on input line
+ 204.
+
+
+LaTeX Warning: Reference `thm:floor-algorithm' on page 33 undefined on input li
+ne 204.
+
+
+LaTeX Warning: Reference `eq:stateless-true-floor' on page 33 undefined on inpu
+t line 204.
+
+
+LaTeX Warning: Reference `thm:positive-certificate' on page 33 undefined on inp
+ut line 205.
+
+
+LaTeX Warning: Reference `thm:decision-packets' on page 33 undefined on input l
+ine 205.
+
+
+LaTeX Warning: Reference `thm:regular-composition' on page 33 undefined on inpu
+t line 206.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 207--207
+[]|\T1/LinuxLibertineT-TLF/m/n/9 (+20) Reactive ob-ser-va-tions
+
+LaTeX Warning: Reference `thm:run-bijection' on page 33 undefined on input line
+ 207.
+
+
+LaTeX Warning: Reference `thm:fair-expansion' on page 33 undefined on input lin
+e 207.
+
+
+Underfull \vbox (badness 1917) has occurred while \output is active
+[33.33]
+[34.34]
+
+LaTeX Warning: Reference `sec:related' on page 35 undefined on input line 228.
+
+) (./sections/related.tex
+[35.35]
+
+Package natbib Warning: Citation `safetyliveness' on page 36 undefined on input
+ line 8.
+
+
+Package natbib Warning: Citation `finitary' on page 36 undefined on input line 
+8.
+
+
+Package natbib Warning: Citation `promptness' on page 36 undefined on input lin
+e 8.
+
+
+Package natbib Warning: Citation `livenesspromptness' on page 36 undefined on i
+nput line 8.
+
+
+Package natbib Warning: Citation `bounded' on page 36 undefined on input line 8
+.
+
+
+Package natbib Warning: Citation `predfair' on page 36 undefined on input line 
+8.
+
+
+Package natbib Warning: Citation `fairsimulation' on page 36 undefined on input
+ line 8.
+
+
+Package natbib Warning: Citation `msotransductions' on page 36 undefined on inp
+ut line 10.
+
+
+Package natbib Warning: Citation `streamingtransducers' on page 36 undefined on
+ input line 10.
+
+
+Package natbib Warning: Citation `regularomega' on page 36 undefined on input l
+ine 10.
+
+
+Package natbib Warning: Citation `quantitative' on page 36 undefined on input l
+ine 10.
+
+
+Package natbib Warning: Citation `regularcost' on page 36 undefined on input li
+ne 10.
+
+
+Package natbib Warning: Citation `tla' on page 36 undefined on input line 16.
+
+
+Package natbib Warning: Citation `autoverification' on page 36 undefined on inp
+ut line 16.
+
+
+Package natbib Warning: Citation `mcabstraction' on page 36 undefined on input 
+line 16.
+
+
+Package natbib Warning: Citation `abstractreactive' on page 36 undefined on inp
+ut line 16.
+
+
+Package natbib Warning: Citation `composingspecs' on page 36 undefined on input
+ line 16.
+
+
+Package natbib Warning: Citation `compositionaldistributed' on page 36 undefine
+d on input line 16.
+
+
+Package natbib Warning: Citation `modularverification' on page 36 undefined on 
+input line 16.
+
+
+Package natbib Warning: Citation `modularautomata' on page 36 undefined on inpu
+t line 16.
+
+
+Package natbib Warning: Citation `modulechecking' on page 36 undefined on input
+ line 16.
+
+
+Package natbib Warning: Citation `alternatingrefinement' on page 36 undefined o
+n input line 16.
+
+
+Package natbib Warning: Citation `interfaceautomata' on page 36 undefined on in
+put line 16.
+
+
+Package natbib Warning: Citation `csim2' on page 36 undefined on input line 16.
+
+
+
+[36.36]
+
+Package natbib Warning: Citation `refinementmaps' on page 37 undefined on input
+ line 18.
+
+
+Package natbib Warning: Citation `simulations' on page 37 undefined on input li
+ne 18.
+
+
+Package natbib Warning: Citation `compcert' on page 37 undefined on input line 
+18.
+
+
+Package natbib Warning: Citation `trcc' on page 37 undefined on input line 18.
+
+
+Package natbib Warning: Citation `coinductive' on page 37 undefined on input li
+ne 20.
+
+
+Package natbib Warning: Citation `itrees' on page 37 undefined on input line 20
+.
+
+
+Package natbib Warning: Citation `omni' on page 37 undefined on input line 24.
+
+
+Package natbib Warning: Citation `constanttime' on page 37 undefined on input l
+ine 26.
+
+
+LaTeX Warning: Reference `cor:secret' on page 37 undefined on input line 26.
+
+
+Package natbib Warning: Citation `hyperproperties' on page 37 undefined on inpu
+t line 26.
+
+
+Package natbib Warning: Citation `asynchronous' on page 37 undefined on input l
+ine 26.
+
+
+Package natbib Warning: Citation `metrics' on page 37 undefined on input line 2
+8.
+
+
+Package natbib Warning: Citation `fos' on page 37 undefined on input line 30.
+
+
+Package natbib Warning: Citation `fairsimulation' on page 37 undefined on input
+ line 30.
+
+
+Package natbib Warning: Citation `predfair' on page 37 undefined on input line 
+32.
+
+
+Package natbib Warning: Citation `tadalive' on page 37 undefined on input line 
+34.
+
+
+Package natbib Warning: Citation `lilo' on page 37 undefined on input line 34.
+
+
+Package natbib Warning: Citation `lawyer' on page 37 undefined on input line 34
+.
+
+
+LaTeX Warning: Reference `thm:bisimulation' on page 37 undefined on input line 
+34.
+
+
+[37.37]
+
+Package natbib Warning: Citation `pcc' on page 38 undefined on input line 36.
+
+
+Package natbib Warning: Citation `finitary' on page 38 undefined on input line 
+49.
+
+
+Package natbib Warning: Citation `promptness' on page 38 undefined on input lin
+e 49.
+
+
+Package natbib Warning: Citation `livenesspromptness' on page 38 undefined on i
+nput line 49.
+
+
+Package natbib Warning: Citation `bounded' on page 38 undefined on input line 4
+9.
+
+
+Package natbib Warning: Citation `predfair' on page 38 undefined on input line 
+49.
+
+
+Package natbib Warning: Citation `fairsimulation' on page 38 undefined on input
+ line 49.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+[]|\T1/LinuxLibertineT-TLF/m/n/9 (+20) Finitary fair-ness and
+
+Package natbib Warning: Citation `msotransductions' on page 38 undefined on inp
+ut line 50.
+
+
+Package natbib Warning: Citation `streamingtransducers' on page 38 undefined on
+ input line 50.
+
+
+Package natbib Warning: Citation `regularomega' on page 38 undefined on input l
+ine 50.
+
+
+Package natbib Warning: Citation `quantitative' on page 38 undefined on input l
+ine 50.
+
+
+Package natbib Warning: Citation `regularcost' on page 38 undefined on input li
+ne 50.
+
+
+Underfull \hbox (badness 3068) in paragraph at lines 50--50
+[]|\T1/LinuxLibertineT-TLF/m/n/9 (+20) Regular and quan-ti-ta-
+
+Underfull \hbox (badness 2671) in paragraph at lines 50--50
+[]|\T1/LinuxLibertineT-TLF/m/n/9 (+20) Broad trans-ducer classes, value
+
+Package natbib Warning: Citation `tla' on page 38 undefined on input line 51.
+
+
+Package natbib Warning: Citation `mcabstraction' on page 38 undefined on input 
+line 51.
+
+
+Package natbib Warning: Citation `modularverification' on page 38 undefined on 
+input line 51.
+
+
+Package natbib Warning: Citation `composingspecs' on page 38 undefined on input
+ line 51.
+
+
+Package natbib Warning: Citation `alternatingrefinement' on page 38 undefined o
+n input line 51.
+
+
+Package natbib Warning: Citation `interfaceautomata' on page 38 undefined on in
+put line 51.
+
+
+Package natbib Warning: Citation `refinementmaps' on page 38 undefined on input
+ line 51.
+
+
+Package natbib Warning: Citation `simulations' on page 38 undefined on input li
+ne 51.
+
+
+Package natbib Warning: Citation `trcc' on page 38 undefined on input line 51.
+
+
+Package natbib Warning: Citation `compcert' on page 38 undefined on input line 
+51.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
+[]|\T1/LinuxLibertineT-TLF/m/n/9 (+20) Behavioral re-fine-ment, open-
+
+Package natbib Warning: Citation `omni' on page 38 undefined on input line 52.
+
+
+Package natbib Warning: Citation `constanttime' on page 38 undefined on input l
+ine 52.
+
+
+Package natbib Warning: Citation `metrics' on page 38 undefined on input line 5
+2.
+
+
+Package natbib Warning: Citation `asynchronous' on page 38 undefined on input l
+ine 52.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
+[]|\T1/LinuxLibertineT-TLF/m/n/9 (+20) Omnisemantics, leak-
+
+Package natbib Warning: Citation `fos' on page 38 undefined on input line 53.
+
+
+Package natbib Warning: Citation `tadalive' on page 38 undefined on input line 
+53.
+
+
+Package natbib Warning: Citation `lilo' on page 38 undefined on input line 53.
+
+
+Package natbib Warning: Citation `lawyer' on page 38 undefined on input line 53
+.
+
+) (./sections/conclusion.tex
+[38.38]) (./appendices/endpoint-details.tex
+
+LaTeX Warning: Reference `sec:regular' on page 39 undefined on input line 4.
+
+
+LaTeX Warning: Reference `sec:synthesis' on page 39 undefined on input line 4.
+
+
+LaTeX Warning: Reference `sec:regular' on page 39 undefined on input line 13.
+
+
+[39.39]
+
+LaTeX Warning: Reference `lem:profile-sufficiency' on page 40 undefined on inpu
+t line 63.
+
+
+LaTeX Warning: Reference `eq:debtDP' on page 40 undefined on input line 66.
+
+
+LaTeX Warning: Reference `lem:debt-origin' on page 40 undefined on input line 6
+6.
+
+
+[40.40]
+
+LaTeX Warning: Reference `eq:ceilingformula' on page 41 undefined on input line
+ 70.
+
+
+LaTeX Warning: Reference `lem:debt-origin' on page 41 undefined on input line 7
+3.
+
+
+LaTeX Warning: Reference `lem:profile-sufficiency' on page 41 undefined on inpu
+t line 73.
+
+
+LaTeX Warning: Reference `lem:safe-prefix-extension' on page 41 undefined on in
+put line 75.
+
+
+LaTeX Warning: Reference `tab:worked-transducer' on page 41 undefined on input 
+line 84.
+
+
+[41.41]
+
+LaTeX Warning: Reference `lem:fixed-reflection' on page 42 undefined on input l
+ine 121.
+
+) (./appendices/certificates-details.tex
+[42.42]
+
+LaTeX Warning: Reference `lem:product-path-correspondence' on page 43 undefined
+ on input line 22.
+
+
+LaTeX Warning: Reference `lem:fixed-reflection' on page 43 undefined on input l
+ine 22.
+
+
+[43.43]
+
+LaTeX Warning: Reference `eq:invalidfloor' on page 44 undefined on input line 5
+7.
+
+
+LaTeX Warning: Reference `lem:fixed-reflection' on page 44 undefined on input l
+ine 57.
+
+
+LaTeX Warning: Reference `tab:packet-obligations' on page 44 undefined on input
+ line 83.
+
+
+Underfull \hbox (badness 3568) in paragraph at lines 95--96
+[]|\T1/LinuxLibertineT-TLF/m/n/9 (+20) Every listed ver-tex is se-man-ti-cally
+
+Underfull \hbox (badness 1728) in paragraph at lines 97--98
+[]|\T1/LinuxLibertineT-TLF/m/n/9 (+20) Concrete in-fi-nite con-tin-u-a-tion fro
+m
+
+LaTeX Warning: Reference `lem:fixed-reflection' on page 44 undefined on input l
+ine 99.
+
+
+LaTeX Warning: Reference `lem:safe-prefix-extension' on page 44 undefined on in
+put line 108.
+
+
+LaTeX Warning: Reference `lem:fixed-reflection' on page 44 undefined on input l
+ine 110.
+
+
+[44.44]
+
+LaTeX Warning: Reference `lem:local-live-dead' on page 45 undefined on input li
+ne 112.
+
+
+LaTeX Warning: Reference `sec:validation' on page 45 undefined on input line 11
+4.
+
+) (./appendices/reactive-details.tex
+
+LaTeX Warning: Reference `sec:reactive' on page 45 undefined on input line 4.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active
+[45.45]
+
+LaTeX Warning: Reference `thm:run-bijection' on page 46 undefined on input line
+ 36.
+
+
+[46.46]
+
+LaTeX Warning: Reference `eq:appendix-low-prefix' on page 47 undefined on input
+ line 51.
+
+
+LaTeX Warning: Reference `thm:fair-expansion' on page 47 undefined on input lin
+e 65.
+
+
+LaTeX Warning: Reference `lem:restrict-bijection' on page 47 undefined on input
+ line 65.
+
+
+LaTeX Warning: Reference `prop:saturation' on page 47 undefined on input line 6
+5.
+
+
+LaTeX Warning: Reference `tab:worked-transducer' on page 47 undefined on input 
+line 75.
+
+
+LaTeX Warning: Reference `eq:resetbit' on page 47 undefined on input line 75.
+
+
+[47.47]
+
+LaTeX Warning: Reference `app:endpoints' on page 48 undefined on input line 79.
+
+
+
+LaTeX Warning: Reference `eq:resetbit' on page 48 undefined on input line 88.
+
+)
+No file main.bbl.
+
+Package natbib Warning: There were undefined citations.
+
+
+Underfull \vbox (badness 2073) has occurred while \output is active
+[48.48]
+[49.49] (/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-pdfdoc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-utf8.def) [50.49]
+(./main.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+LaTeX Warning: Temporary extra page added at the end. Rerun to get it removed.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(see the transcript file for additional information)</usr/share/texlive/texmf-d
+ist/fonts/type1/public/newtx/LibertineMathMI.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/newtx/LibertineMathMI5.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/newtx/LibertineMathMI7.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/newtx/LibertineMathRM.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/libertine/LinBiolinumT.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/libertine/LinBiolinumTB.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/libertine/LinBiolinumTI.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/libertine/LinLibertineT.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/libertine/LinLibertineTB.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/libertine/LinLibertineTI.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/libertine/LinLibertineTZ.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/newtx/NewTXMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/new
+tx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsym.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
+Output written on main.pdf (50 pages, 830251 bytes).
+Transcript written on main.log.
+This is BibTeX, Version 0.99d (TeX Live 2025/dev/Debian)
+The top-level auxiliary file: main.aux
+The style file: ACM-Reference-Format.bst
+Database file #1: references.bib
+Warning--empty address in promptness
+Warning--empty address in streamingtransducers
+Warning--empty address in regularomega
+Warning--empty address in alternatingrefinement
+Warning--empty address in interfaceautomata
+Warning--empty address in bounded
+Warning--empty address in pcc
+Warning--empty publisher in metrics
+Warning--empty address in metrics
+(There were 9 warnings)
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(./acmart.cls
+Document Class: acmart 2026/08/16 v2.20 Typesetting articles for the Associatio
+n for Computing Machinery
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/keyval.tex))))
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsart.cls
+Document Class: amsart 2020/05/29 v2.20.6
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/totpages/totpages.sty
+(/usr/share/texlive/texmf-dist/tex/latex/everyshi/everyshi.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
+(/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperxmp/hyperxmp.sty
+(/usr/share/texlive/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/ifdraft.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/ncctools/manyfoot.sty
+(/usr/share/texlive/texmf-dist/tex/latex/ncctools/nccfoots.sty))
+(/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/cmap/cmap.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty<<t1.cmap>>)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/libertine.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/fontaxes/fontaxes.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/LinLibertine_I.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/inconsolata/zi4.sty
+`inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe))
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/newtxmath.sty
+`newtxmath' v1.754, 2024/09/22 Math macros based originally on txfonts (msharpe
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/centernot.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kastrup/binhex.tex)
+amsthm NOT loaded
+) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/pifont.sty
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/upzd.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/upsy.fd))
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption-ams-smf.sto)))
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
+Excluding comment 'comment') Excluding comment 'CCSXML'
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
+Special comment 'acks'
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/T1LinuxLibertineT-TLF.fd))
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered
+.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex))
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.
+code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypositioning.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarycalc.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathreplacing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
+e.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathreplacing.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryfit.code.tex) Excluding comment 'screenonly'
+Include comment 'printonly' Include comment 'anonsuppress'
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(./main.aux) (/usr/share/texlive/texmf-dist/tex/latex/newtx/omlnxlmi.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/untxexa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/lmsntxsy.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/lmxntxexx.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/OT1LinuxLibertineT-TLF.fd)<<
+ot1.cmap>><<oml.cmap>>
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/untxmia.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsym.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsyc.fd) (./main.out)
+(./main.out) (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/T1LinuxBiolinumT-TLF.fd)
+(./sections/introduction.tex
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg)
+[1.1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texm
+f-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}{/usr/share/texlive/texmf-dist
+/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{/usr/share/texlive/texmf-dist/fonts
+/enc/dvips/libertine/lbtn_oexx6f.enc}]
+[2.2{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}])
+(./sections/semantics.tex
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/OT1LinuxBiolinumT-TLF.fd)
+[3.3{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_edcawa.enc}]
+[4.4{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_ncsllp.enc}]
+[5.5{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_fygcup.enc}])
+ (./sections/regular.tex
+[6.6{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}]
+(./figures/regular-interface.tex)
+[7.7]
+[8.8]
+[9.9]) (./sections/synthesis.tex
+[10.10]
+[11.11]
+[12.12]
+[13.13]
+[14.14]) (./sections/stateless.tex (./sections/classification.tex
+[15.15] (./figures/phase-contract.tex)
+[16.16]
+[17.17]
+[18.18]) (./sections/algebra.tex
+[19.19]
+[20.20]
+[21.21])
+[22.22]) (./sections/reactive.tex
+[23.23] (./figures/microstep.tex)
+[24.24]
+[25.25]
+[26.26]
+[27.27] (./figures/viability.tex)) (./sections/validation.tex
+[28.28]
+[29.29]
+[30.30]
+[31.31]
+[32.32]
+Underfull \hbox (badness 4403) in paragraph at lines 202--203
+[]|\T1/LinuxLibertineT-TLF/m/n/9 (+20) 407,040 fixed-bound com-par-isons across
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 207--207
+[]|\T1/LinuxLibertineT-TLF/m/n/9 (+20) Reactive ob-ser-va-tions
+
+Underfull \vbox (badness 1917) has occurred while \output is active
+[33.33]
+[34.34]) (./sections/related.tex
+[35.35]
+
+Package natbib Warning: Citation `safetyliveness' on page 36 undefined on input
+ line 8.
+
+
+Package natbib Warning: Citation `finitary' on page 36 undefined on input line 
+8.
+
+
+Package natbib Warning: Citation `promptness' on page 36 undefined on input lin
+e 8.
+
+
+Package natbib Warning: Citation `livenesspromptness' on page 36 undefined on i
+nput line 8.
+
+
+Package natbib Warning: Citation `bounded' on page 36 undefined on input line 8
+.
+
+
+Package natbib Warning: Citation `predfair' on page 36 undefined on input line 
+8.
+
+
+Package natbib Warning: Citation `fairsimulation' on page 36 undefined on input
+ line 8.
+
+
+Package natbib Warning: Citation `msotransductions' on page 36 undefined on inp
+ut line 10.
+
+
+Package natbib Warning: Citation `streamingtransducers' on page 36 undefined on
+ input line 10.
+
+
+Package natbib Warning: Citation `regularomega' on page 36 undefined on input l
+ine 10.
+
+
+Package natbib Warning: Citation `quantitative' on page 36 undefined on input l
+ine 10.
+
+
+Package natbib Warning: Citation `regularcost' on page 36 undefined on input li
+ne 10.
+
+
+Package natbib Warning: Citation `tla' on page 36 undefined on input line 16.
+
+
+Package natbib Warning: Citation `autoverification' on page 36 undefined on inp
+ut line 16.
+
+
+Package natbib Warning: Citation `mcabstraction' on page 36 undefined on input 
+line 16.
+
+
+Package natbib Warning: Citation `abstractreactive' on page 36 undefined on inp
+ut line 16.
+
+
+Package natbib Warning: Citation `composingspecs' on page 36 undefined on input
+ line 16.
+
+
+Package natbib Warning: Citation `compositionaldistributed' on page 36 undefine
+d on input line 16.
+
+
+Package natbib Warning: Citation `modularverification' on page 36 undefined on 
+input line 16.
+
+
+Package natbib Warning: Citation `modularautomata' on page 36 undefined on inpu
+t line 16.
+
+
+Package natbib Warning: Citation `modulechecking' on page 36 undefined on input
+ line 16.
+
+
+Package natbib Warning: Citation `alternatingrefinement' on page 36 undefined o
+n input line 16.
+
+
+Package natbib Warning: Citation `interfaceautomata' on page 36 undefined on in
+put line 16.
+
+
+Package natbib Warning: Citation `csim2' on page 36 undefined on input line 16.
+
+
+
+[36.36]
+
+Package natbib Warning: Citation `refinementmaps' on page 37 undefined on input
+ line 18.
+
+
+Package natbib Warning: Citation `simulations' on page 37 undefined on input li
+ne 18.
+
+
+Package natbib Warning: Citation `compcert' on page 37 undefined on input line 
+18.
+
+
+Package natbib Warning: Citation `trcc' on page 37 undefined on input line 18.
+
+
+Package natbib Warning: Citation `coinductive' on page 37 undefined on input li
+ne 20.
+
+
+Package natbib Warning: Citation `itrees' on page 37 undefined on input line 20
+.
+
+
+Package natbib Warning: Citation `omni' on page 37 undefined on input line 24.
+
+
+Package natbib Warning: Citation `constanttime' on page 37 undefined on input l
+ine 26.
+
+
+Package natbib Warning: Citation `hyperproperties' on page 37 undefined on inpu
+t line 26.
+
+
+Package natbib Warning: Citation `asynchronous' on page 37 undefined on input l
+ine 26.
+
+
+Package natbib Warning: Citation `metrics' on page 37 undefined on input line 2
+8.
+
+
+Package natbib Warning: Citation `fos' on page 37 undefined on input line 30.
+
+
+Package natbib Warning: Citation `fairsimulation' on page 37 undefined on input
+ line 30.
+
+
+Package natbib Warning: Citation `predfair' on page 37 undefined on input line 
+32.
+
+
+Package natbib Warning: Citation `tadalive' on page 37 undefined on input line 
+34.
+
+
+Package natbib Warning: Citation `lilo' on page 37 undefined on input line 34.
+
+
+Package natbib Warning: Citation `lawyer' on page 37 undefined on input line 34
+.
+
+
+[37.37]
+
+Package natbib Warning: Citation `pcc' on page 38 undefined on input line 36.
+
+
+Package natbib Warning: Citation `finitary' on page 38 undefined on input line 
+49.
+
+
+Package natbib Warning: Citation `promptness' on page 38 undefined on input lin
+e 49.
+
+
+Package natbib Warning: Citation `livenesspromptness' on page 38 undefined on i
+nput line 49.
+
+
+Package natbib Warning: Citation `bounded' on page 38 undefined on input line 4
+9.
+
+
+Package natbib Warning: Citation `predfair' on page 38 undefined on input line 
+49.
+
+
+Package natbib Warning: Citation `fairsimulation' on page 38 undefined on input
+ line 49.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+[]|\T1/LinuxLibertineT-TLF/m/n/9 (+20) Finitary fair-ness and
+
+Package natbib Warning: Citation `msotransductions' on page 38 undefined on inp
+ut line 50.
+
+
+Package natbib Warning: Citation `streamingtransducers' on page 38 undefined on
+ input line 50.
+
+
+Package natbib Warning: Citation `regularomega' on page 38 undefined on input l
+ine 50.
+
+
+Package natbib Warning: Citation `quantitative' on page 38 undefined on input l
+ine 50.
+
+
+Package natbib Warning: Citation `regularcost' on page 38 undefined on input li
+ne 50.
+
+
+Underfull \hbox (badness 3068) in paragraph at lines 50--50
+[]|\T1/LinuxLibertineT-TLF/m/n/9 (+20) Regular and quan-ti-ta-
+
+Underfull \hbox (badness 2671) in paragraph at lines 50--50
+[]|\T1/LinuxLibertineT-TLF/m/n/9 (+20) Broad trans-ducer classes, value
+
+Package natbib Warning: Citation `tla' on page 38 undefined on input line 51.
+
+
+Package natbib Warning: Citation `mcabstraction' on page 38 undefined on input 
+line 51.
+
+
+Package natbib Warning: Citation `modularverification' on page 38 undefined on 
+input line 51.
+
+
+Package natbib Warning: Citation `composingspecs' on page 38 undefined on input
+ line 51.
+
+
+Package natbib Warning: Citation `alternatingrefinement' on page 38 undefined o
+n input line 51.
+
+
+Package natbib Warning: Citation `interfaceautomata' on page 38 undefined on in
+put line 51.
+
+
+Package natbib Warning: Citation `refinementmaps' on page 38 undefined on input
+ line 51.
+
+
+Package natbib Warning: Citation `simulations' on page 38 undefined on input li
+ne 51.
+
+
+Package natbib Warning: Citation `trcc' on page 38 undefined on input line 51.
+
+
+Package natbib Warning: Citation `compcert' on page 38 undefined on input line 
+51.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
+[]|\T1/LinuxLibertineT-TLF/m/n/9 (+20) Behavioral re-fine-ment, open-
+
+Package natbib Warning: Citation `omni' on page 38 undefined on input line 52.
+
+
+Package natbib Warning: Citation `constanttime' on page 38 undefined on input l
+ine 52.
+
+
+Package natbib Warning: Citation `metrics' on page 38 undefined on input line 5
+2.
+
+
+Package natbib Warning: Citation `asynchronous' on page 38 undefined on input l
+ine 52.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
+[]|\T1/LinuxLibertineT-TLF/m/n/9 (+20) Omnisemantics, leak-
+
+Package natbib Warning: Citation `fos' on page 38 undefined on input line 53.
+
+
+Package natbib Warning: Citation `tadalive' on page 38 undefined on input line 
+53.
+
+
+Package natbib Warning: Citation `lilo' on page 38 undefined on input line 53.
+
+
+Package natbib Warning: Citation `lawyer' on page 38 undefined on input line 53
+.
+
+) (./sections/conclusion.tex
+[38.38]) (./appendices/endpoint-details.tex
+[39.39]
+[40.40]
+[41.41]) (./appendices/certificates-details.tex
+[42.42]
+[43.43]
+Underfull \hbox (badness 3568) in paragraph at lines 95--96
+[]|\T1/LinuxLibertineT-TLF/m/n/9 (+20) Every listed ver-tex is se-man-ti-cally
+
+Underfull \hbox (badness 1728) in paragraph at lines 97--98
+[]|\T1/LinuxLibertineT-TLF/m/n/9 (+20) Concrete in-fi-nite con-tin-u-a-tion fro
+m
+
+[44.44]) (./appendices/reactive-details.tex
+Underfull \vbox (badness 10000) has occurred while \output is active
+[45.45]
+[46.46]
+[47.47]) (./main.bbl
+Underfull \vbox (badness 2073) has occurred while \output is active
+[48.48]
+Underfull \vbox (badness 1895) has occurred while \output is active
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-pdfdoc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-utf8.def) [49.49])
+
+Package natbib Warning: There were undefined citations.
+
+
+[50.50]
+
+LaTeX Warning: Hook 'shipout/lastpage' executed on wrong page (49 not 50).
+               Rerun to correct this.
+
+(./main.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(see the transcript file for additional information)</usr/share/texlive/texmf-d
+ist/fonts/type1/public/newtx/LibertineMathMI.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/newtx/LibertineMathMI5.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/newtx/LibertineMathMI7.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/newtx/LibertineMathRM.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/libertine/LinBiolinumT.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/libertine/LinBiolinumTB.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/libertine/LinBiolinumTI.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/libertine/LinLibertineT.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/libertine/LinLibertineTB.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/libertine/LinLibertineTI.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/libertine/LinLibertineTZ.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/newtx/NewTXMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/new
+tx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsym.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
+Output written on main.pdf (50 pages, 855468 bytes).
+Transcript written on main.log.
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(./acmart.cls
+Document Class: acmart 2026/08/16 v2.20 Typesetting articles for the Associatio
+n for Computing Machinery
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/keyval.tex))))
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsart.cls
+Document Class: amsart 2020/05/29 v2.20.6
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/totpages/totpages.sty
+(/usr/share/texlive/texmf-dist/tex/latex/everyshi/everyshi.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
+(/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperxmp/hyperxmp.sty
+(/usr/share/texlive/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/ifdraft.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/ncctools/manyfoot.sty
+(/usr/share/texlive/texmf-dist/tex/latex/ncctools/nccfoots.sty))
+(/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/cmap/cmap.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty<<t1.cmap>>)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/libertine.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/fontaxes/fontaxes.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/LinLibertine_I.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/inconsolata/zi4.sty
+`inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe))
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/newtxmath.sty
+`newtxmath' v1.754, 2024/09/22 Math macros based originally on txfonts (msharpe
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/centernot.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kastrup/binhex.tex)
+amsthm NOT loaded
+) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/pifont.sty
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/upzd.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/upsy.fd))
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption-ams-smf.sto)))
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
+Excluding comment 'comment') Excluding comment 'CCSXML'
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
+Special comment 'acks'
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/T1LinuxLibertineT-TLF.fd))
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered
+.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex))
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.
+code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypositioning.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarycalc.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathreplacing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
+e.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathreplacing.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryfit.code.tex) Excluding comment 'screenonly'
+Include comment 'printonly' Include comment 'anonsuppress'
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(./main.aux) (/usr/share/texlive/texmf-dist/tex/latex/newtx/omlnxlmi.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/untxexa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/lmsntxsy.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/lmxntxexx.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/OT1LinuxLibertineT-TLF.fd)<<
+ot1.cmap>><<oml.cmap>>
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/untxmia.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsym.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsyc.fd) (./main.out)
+(./main.out) (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/T1LinuxBiolinumT-TLF.fd)
+(./sections/introduction.tex
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg)
+[1.1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texm
+f-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}{/usr/share/texlive/texmf-dist
+/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{/usr/share/texlive/texmf-dist/fonts
+/enc/dvips/libertine/lbtn_oexx6f.enc}]
+[2.2{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}])
+(./sections/semantics.tex
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/OT1LinuxBiolinumT-TLF.fd)
+[3.3{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_edcawa.enc}]
+[4.4{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_ncsllp.enc}]
+[5.5{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_fygcup.enc}])
+ (./sections/regular.tex
+[6.6{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}]
+(./figures/regular-interface.tex)
+[7.7]
+[8.8]
+[9.9]) (./sections/synthesis.tex
+[10.10]
+[11.11]
+[12.12]
+[13.13]
+[14.14]) (./sections/stateless.tex (./sections/classification.tex
+[15.15] (./figures/phase-contract.tex)
+[16.16]
+[17.17]
+[18.18]) (./sections/algebra.tex
+[19.19]
+[20.20]
+[21.21])
+[22.22]) (./sections/reactive.tex
+[23.23] (./figures/microstep.tex)
+[24.24]
+[25.25]
+[26.26]
+[27.27] (./figures/viability.tex)) (./sections/validation.tex
+[28.28]
+[29.29]
+[30.30]
+[31.31]
+[32.32]
+Underfull \hbox (badness 4403) in paragraph at lines 202--203
+[]|\T1/LinuxLibertineT-TLF/m/n/9 (+20) 407,040 fixed-bound com-par-isons across
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 207--207
+[]|\T1/LinuxLibertineT-TLF/m/n/9 (+20) Reactive ob-ser-va-tions
+
+Underfull \vbox (badness 1917) has occurred while \output is active
+[33.33]
+[34.34]) (./sections/related.tex
+[35.35]
+[36.36]
+[37.37]
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+[]|\T1/LinuxLibertineT-TLF/m/n/9 (+20) Finitary fair-
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+\T1/LinuxLibertineT-TLF/m/n/9 (+20) ness and prompt-
+
+Underfull \hbox (badness 3068) in paragraph at lines 50--50
+[]|\T1/LinuxLibertineT-TLF/m/n/9 (+20) Regular and quan-ti-ta-
+
+Underfull \hbox (badness 2671) in paragraph at lines 50--50
+[]|\T1/LinuxLibertineT-TLF/m/n/9 (+20) Broad trans-ducer classes, value
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
+[]|\T1/LinuxLibertineT-TLF/m/n/9 (+20) Behavioral re-fine-ment, open-
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
+[]|\T1/LinuxLibertineT-TLF/m/n/9 (+20) Omnisemantics,
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
+\T1/LinuxLibertineT-TLF/m/n/9 (+20) leak-age, and
+) (./sections/conclusion.tex
+[38.38]) (./appendices/endpoint-details.tex
+[39.39]
+[40.40]
+[41.41]) (./appendices/certificates-details.tex
+[42.42]
+[43.43]
+Underfull \hbox (badness 3568) in paragraph at lines 95--96
+[]|\T1/LinuxLibertineT-TLF/m/n/9 (+20) Every listed ver-tex is se-man-ti-cally
+
+Underfull \hbox (badness 1728) in paragraph at lines 97--98
+[]|\T1/LinuxLibertineT-TLF/m/n/9 (+20) Concrete in-fi-nite con-tin-u-a-tion fro
+m
+
+[44.44]) (./appendices/reactive-details.tex
+Underfull \vbox (badness 10000) has occurred while \output is active
+[45.45]
+[46.46]
+[47.47]) (./main.bbl
+Underfull \vbox (badness 2073) has occurred while \output is active
+[48.48]
+Underfull \vbox (badness 1895) has occurred while \output is active
+[49.49])
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-pdfdoc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-utf8.def) [50.50]
+(./main.aux) )
+(see the transcript file for additional information)</usr/share/texlive/texmf-d
+ist/fonts/type1/public/newtx/LibertineMathMI.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/newtx/LibertineMathMI5.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/newtx/LibertineMathMI7.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/newtx/LibertineMathRM.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/libertine/LinBiolinumT.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/libertine/LinBiolinumTB.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/libertine/LinBiolinumTI.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/libertine/LinLibertineT.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/libertine/LinLibertineTB.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/libertine/LinLibertineTI.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/libertine/LinLibertineTZ.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/newtx/NewTXMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/new
+tx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsym.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
+Output written on main.pdf (50 pages, 858420 bytes).
+Transcript written on main.log.
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(./acmart.cls
+Document Class: acmart 2026/08/16 v2.20 Typesetting articles for the Associatio
+n for Computing Machinery
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/keyval.tex))))
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsart.cls
+Document Class: amsart 2020/05/29 v2.20.6
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/totpages/totpages.sty
+(/usr/share/texlive/texmf-dist/tex/latex/everyshi/everyshi.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
+(/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperxmp/hyperxmp.sty
+(/usr/share/texlive/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/ifdraft.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/ncctools/manyfoot.sty
+(/usr/share/texlive/texmf-dist/tex/latex/ncctools/nccfoots.sty))
+(/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/cmap/cmap.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty<<t1.cmap>>)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/libertine.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/fontaxes/fontaxes.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/LinLibertine_I.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/inconsolata/zi4.sty
+`inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe))
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/newtxmath.sty
+`newtxmath' v1.754, 2024/09/22 Math macros based originally on txfonts (msharpe
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/centernot.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kastrup/binhex.tex)
+amsthm NOT loaded
+) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/pifont.sty
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/upzd.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/upsy.fd))
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption-ams-smf.sto)))
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
+Excluding comment 'comment') Excluding comment 'CCSXML'
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
+Special comment 'acks'
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/T1LinuxLibertineT-TLF.fd))
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered
+.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex))
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.
+code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypositioning.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarycalc.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathreplacing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
+e.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathreplacing.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryfit.code.tex) Excluding comment 'screenonly'
+Include comment 'printonly' Include comment 'anonsuppress'
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(./main.aux) (/usr/share/texlive/texmf-dist/tex/latex/newtx/omlnxlmi.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/untxexa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/lmsntxsy.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/lmxntxexx.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/OT1LinuxLibertineT-TLF.fd)<<
+ot1.cmap>><<oml.cmap>>
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/untxmia.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsym.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsyc.fd) (./main.out)
+(./main.out) (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/T1LinuxBiolinumT-TLF.fd)
+(./sections/introduction.tex
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg)
+[1.1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texm
+f-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}{/usr/share/texlive/texmf-dist
+/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{/usr/share/texlive/texmf-dist/fonts
+/enc/dvips/libertine/lbtn_oexx6f.enc}]
+[2.2{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}])
+(./sections/semantics.tex
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/OT1LinuxBiolinumT-TLF.fd)
+[3.3{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_edcawa.enc}]
+[4.4{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_ncsllp.enc}]
+[5.5{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_fygcup.enc}])
+ (./sections/regular.tex
+[6.6{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}]
+(./figures/regular-interface.tex)
+[7.7]
+[8.8]
+[9.9]) (./sections/synthesis.tex
+[10.10]
+[11.11]
+[12.12]
+[13.13]
+[14.14]) (./sections/stateless.tex (./sections/classification.tex
+[15.15] (./figures/phase-contract.tex)
+[16.16]
+[17.17]
+[18.18]) (./sections/algebra.tex
+[19.19]
+[20.20]
+[21.21])
+[22.22]) (./sections/reactive.tex
+[23.23] (./figures/microstep.tex)
+[24.24]
+[25.25]
+[26.26]
+[27.27] (./figures/viability.tex)) (./sections/validation.tex
+[28.28]
+[29.29]
+[30.30]
+[31.31]
+[32.32]
+Underfull \hbox (badness 4403) in paragraph at lines 202--203
+[]|\T1/LinuxLibertineT-TLF/m/n/9 (+20) 407,040 fixed-bound com-par-isons across
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 207--207
+[]|\T1/LinuxLibertineT-TLF/m/n/9 (+20) Reactive ob-ser-va-tions
+
+Underfull \vbox (badness 1917) has occurred while \output is active
+[33.33]
+[34.34]) (./sections/related.tex
+[35.35]
+[36.36]
+[37.37]
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+[]|\T1/LinuxLibertineT-TLF/m/n/9 (+20) Finitary fair-
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+\T1/LinuxLibertineT-TLF/m/n/9 (+20) ness and prompt-
+
+Underfull \hbox (badness 3068) in paragraph at lines 50--50
+[]|\T1/LinuxLibertineT-TLF/m/n/9 (+20) Regular and quan-ti-ta-
+
+Underfull \hbox (badness 2671) in paragraph at lines 50--50
+[]|\T1/LinuxLibertineT-TLF/m/n/9 (+20) Broad trans-ducer classes, value
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
+[]|\T1/LinuxLibertineT-TLF/m/n/9 (+20) Behavioral re-fine-ment, open-
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
+[]|\T1/LinuxLibertineT-TLF/m/n/9 (+20) Omnisemantics,
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
+\T1/LinuxLibertineT-TLF/m/n/9 (+20) leak-age, and
+) (./sections/conclusion.tex
+[38.38]) (./appendices/endpoint-details.tex
+[39.39]
+[40.40]
+[41.41]) (./appendices/certificates-details.tex
+[42.42]
+[43.43]
+Underfull \hbox (badness 3568) in paragraph at lines 95--96
+[]|\T1/LinuxLibertineT-TLF/m/n/9 (+20) Every listed ver-tex is se-man-ti-cally
+
+Underfull \hbox (badness 1728) in paragraph at lines 97--98
+[]|\T1/LinuxLibertineT-TLF/m/n/9 (+20) Concrete in-fi-nite con-tin-u-a-tion fro
+m
+
+[44.44]) (./appendices/reactive-details.tex
+Underfull \vbox (badness 10000) has occurred while \output is active
+[45.45]
+[46.46]
+[47.47]) (./main.bbl
+Underfull \vbox (badness 2073) has occurred while \output is active
+[48.48]
+Underfull \vbox (badness 1895) has occurred while \output is active
+[49.49])
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-pdfdoc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-utf8.def) [50.50]
+(./main.aux) )
+(see the transcript file for additional information)</usr/share/texlive/texmf-d
+ist/fonts/type1/public/newtx/LibertineMathMI.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/newtx/LibertineMathMI5.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/newtx/LibertineMathMI7.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/newtx/LibertineMathRM.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/libertine/LinBiolinumT.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/libertine/LinBiolinumTB.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/libertine/LinBiolinumTI.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/libertine/LinLibertineT.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/libertine/LinLibertineTB.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/libertine/LinLibertineTI.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/libertine/LinLibertineTZ.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/newtx/NewTXMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/new
+tx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsym.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
+Output written on main.pdf (50 pages, 858420 bytes).
+Transcript written on main.log.
+Compiled main.pdf; successful compilation is not a scientific or venue-readiness certification.

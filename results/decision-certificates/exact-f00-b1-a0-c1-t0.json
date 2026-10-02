@@ -1,0 +1,214 @@
+{
+  "certificate": {
+    "forward": {
+      "parents": {
+        "0,1,0": {
+          "distance": 1,
+          "parent": [
+            0,
+            0,
+            0
+          ],
+          "symbol": 0
+        },
+        "1,0,1": {
+          "distance": 1,
+          "parent": [
+            0,
+            0,
+            0
+          ],
+          "symbol": 1
+        },
+        "1,1,1": {
+          "distance": 2,
+          "parent": [
+            0,
+            1,
+            0
+          ],
+          "symbol": 1
+        }
+      },
+      "states": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ]
+    },
+    "live": {
+      "live": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rank": {},
+      "successor": {
+        "0": 1,
+        "1": 0,
+        "2": 1,
+        "3": 0
+      }
+    },
+    "parameters": {
+      "source_bound": 1,
+      "source_debt": 0,
+      "target_bound": 1,
+      "target_debt": 0
+    },
+    "schema": "fair-contract-certificate-1",
+    "target_safe": {
+      "parents": {
+        "0,1,0": {
+          "distance": 1,
+          "parent": [
+            0,
+            0,
+            0
+          ],
+          "symbol": 0
+        },
+        "1,0,1": {
+          "distance": 1,
+          "parent": [
+            0,
+            0,
+            0
+          ],
+          "symbol": 1
+        },
+        "1,1,1": {
+          "distance": 2,
+          "parent": [
+            0,
+            1,
+            0
+          ],
+          "symbol": 1
+        }
+      },
+      "states": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ]
+    },
+    "transducer": {
+      "initial": 0,
+      "input_resets": [
+        0,
+        1
+      ],
+      "transitions": [
+        [
+          {
+            "next": 1,
+            "output": [
+              0
+            ]
+          },
+          {
+            "next": 0,
+            "output": [
+              1
+            ]
+          }
+        ],
+        [
+          {
+            "next": 0,
+            "output": [
+              0
+            ]
+          },
+          {
+            "next": 1,
+            "output": [
+              1
+            ]
+          }
+        ]
+      ]
+    }
+  },
+  "parameters": {
+    "source_bound": 1,
+    "source_debt": 0,
+    "target_bound": 1,
+    "target_debt": 0
+  },
+  "schema": "fair-contract-decision-1",
+  "transducer": {
+    "initial": 0,
+    "input_resets": [
+      0,
+      1
+    ],
+    "transitions": [
+      [
+        {
+          "next": 1,
+          "output": [
+            0
+          ]
+        },
+        {
+          "next": 0,
+          "output": [
+            1
+          ]
+        }
+      ],
+      [
+        {
+          "next": 0,
+          "output": [
+            0
+          ]
+        },
+        {
+          "next": 1,
+          "output": [
+            1
+          ]
+        }
+      ]
+    ]
+  },
+  "verdict": "exact"
+}

@@ -1,0 +1,29 @@
+# Standalone artifact, from a clean copy
+python3 -m unittest -v test_artifact
+python3 reproduce.py --stage expansion --output reproduced
+python3 reproduce.py --stage monitor --output reproduced
+python3 reproduce.py --stage graphs --output reproduced
+python3 reproduce.py --stage bisimulation --output reproduced
+python3 reproduce.py --stage saturation --output reproduced
+python3 reproduce.py --stage boundaries --output reproduced
+python3 reproduce.py --stage classify0 --output reproduced
+python3 reproduce.py --stage classify1 --output reproduced
+python3 reproduce.py --stage classify2 --output reproduced
+python3 reproduce.py --stage classify3 --output reproduced
+python3 reproduce.py --stage classify4 --output reproduced
+python3 reproduce.py --stage public-budget --output reproduced
+python3 reproduce.py --stage composition --output reproduced
+python3 reproduce.py --stage regular-one-bit --output reproduced
+python3 reproduce.py --stage regular-blocks --output reproduced
+python3 reproduce.py --stage regular-annotated --output reproduced
+python3 reproduce.py --stage regular-certificates --output reproduced
+python3 reproduce.py --stage regular-decisions --output reproduced
+python3 reproduce.py --stage regular-composition --output reproduced
+python3 reproduce.py --stage annotated-composition --output reproduced
+python3 reproduce.py --stage canonical-expansions --output reproduced
+python3 reproduce.py --stage annotated-expansions --output reproduced
+python3 check_reproduction.py results reproduced
+python3 certificates.py results/certificates/m017-b0.json
+
+# Paper, from a source-only copy
+python3 build.py

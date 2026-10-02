@@ -1,0 +1,188 @@
+{
+  "address_space_limit_bytes": 3221225472,
+  "exclusions": "TeX compilation and clean-package replay are documented separately under results/clean-reproduction.",
+  "maximum_peak_rss_kib": 104876,
+  "per_stage": [
+    {
+      "address_space_limit_bytes": 3221225472,
+      "cpu_seconds": 1.7310948210000001,
+      "peak_rss_kib": 94512,
+      "stage": "annotated-composition",
+      "wall_seconds": 1.7311651069999243,
+      "workers": 1
+    },
+    {
+      "address_space_limit_bytes": 3221225472,
+      "cpu_seconds": 0.8144666089999999,
+      "peak_rss_kib": 95912,
+      "stage": "annotated-expansions",
+      "wall_seconds": 0.8144681080000282,
+      "workers": 1
+    },
+    {
+      "address_space_limit_bytes": 3221225472,
+      "cpu_seconds": 1.3365237259999998,
+      "peak_rss_kib": 100652,
+      "stage": "bisimulation",
+      "wall_seconds": 1.336588466999956,
+      "workers": 1
+    },
+    {
+      "address_space_limit_bytes": 3221225472,
+      "cpu_seconds": 0.0004140759999997634,
+      "peak_rss_kib": 100652,
+      "stage": "boundaries",
+      "wall_seconds": 0.00042027299991787004,
+      "workers": 1
+    },
+    {
+      "address_space_limit_bytes": 3221225472,
+      "cpu_seconds": 2.270494851,
+      "peak_rss_kib": 96616,
+      "stage": "canonical-expansions",
+      "wall_seconds": 2.270649922000075,
+      "workers": 1
+    },
+    {
+      "address_space_limit_bytes": 3221225472,
+      "cpu_seconds": 1.0048917570000002,
+      "peak_rss_kib": 100652,
+      "stage": "classify0",
+      "wall_seconds": 1.0049692390000473,
+      "workers": 1
+    },
+    {
+      "address_space_limit_bytes": 3221225472,
+      "cpu_seconds": 2.6180555089999995,
+      "peak_rss_kib": 100652,
+      "stage": "classify1",
+      "wall_seconds": 2.618269201000089,
+      "workers": 1
+    },
+    {
+      "address_space_limit_bytes": 3221225472,
+      "cpu_seconds": 4.7724096419999995,
+      "peak_rss_kib": 100652,
+      "stage": "classify2",
+      "wall_seconds": 4.772700288999999,
+      "workers": 1
+    },
+    {
+      "address_space_limit_bytes": 3221225472,
+      "cpu_seconds": 7.3640160130000005,
+      "peak_rss_kib": 100652,
+      "stage": "classify3",
+      "wall_seconds": 7.364416097000003,
+      "workers": 1
+    },
+    {
+      "address_space_limit_bytes": 3221225472,
+      "cpu_seconds": 10.580679883000002,
+      "peak_rss_kib": 100652,
+      "stage": "classify4",
+      "wall_seconds": 10.584299465999948,
+      "workers": 1
+    },
+    {
+      "address_space_limit_bytes": 3221225472,
+      "cpu_seconds": 1.065884809,
+      "peak_rss_kib": 104876,
+      "stage": "composition",
+      "wall_seconds": 1.0659333410000045,
+      "workers": 1
+    },
+    {
+      "address_space_limit_bytes": 3221225472,
+      "cpu_seconds": 0.38976152600000014,
+      "peak_rss_kib": 95660,
+      "stage": "expansion",
+      "wall_seconds": 0.3898029869999391,
+      "workers": 1
+    },
+    {
+      "address_space_limit_bytes": 3221225472,
+      "cpu_seconds": 0.6572361329999998,
+      "peak_rss_kib": 100652,
+      "stage": "graphs",
+      "wall_seconds": 0.6572798159999138,
+      "workers": 1
+    },
+    {
+      "address_space_limit_bytes": 3221225472,
+      "cpu_seconds": 0.16090498900000005,
+      "peak_rss_kib": 95660,
+      "stage": "monitor",
+      "wall_seconds": 0.16090171200005443,
+      "workers": 1
+    },
+    {
+      "address_space_limit_bytes": 3221225472,
+      "cpu_seconds": 0.03307400699999974,
+      "peak_rss_kib": 100652,
+      "stage": "public-budget",
+      "wall_seconds": 0.033084003999988454,
+      "workers": 1
+    },
+    {
+      "address_space_limit_bytes": 3221225472,
+      "cpu_seconds": 4.974226419,
+      "peak_rss_kib": 95528,
+      "stage": "regular-annotated",
+      "wall_seconds": 4.9747454299999845,
+      "workers": 1
+    },
+    {
+      "address_space_limit_bytes": 3221225472,
+      "cpu_seconds": 13.346415559,
+      "peak_rss_kib": 99244,
+      "stage": "regular-blocks",
+      "wall_seconds": 13.347817276,
+      "workers": 1
+    },
+    {
+      "address_space_limit_bytes": 3221225472,
+      "cpu_seconds": 0.5489444920000001,
+      "peak_rss_kib": 95016,
+      "stage": "regular-certificates",
+      "wall_seconds": 0.5489789819999942,
+      "workers": 1
+    },
+    {
+      "address_space_limit_bytes": 3221225472,
+      "cpu_seconds": 1.7423787450000001,
+      "peak_rss_kib": 94372,
+      "stage": "regular-composition",
+      "wall_seconds": 1.7425097599999617,
+      "workers": 1
+    },
+    {
+      "address_space_limit_bytes": 3221225472,
+      "cpu_seconds": 8.660281358,
+      "peak_rss_kib": 102704,
+      "stage": "regular-decisions",
+      "wall_seconds": 8.660549136999975,
+      "workers": 1
+    },
+    {
+      "address_space_limit_bytes": 3221225472,
+      "cpu_seconds": 9.100684869,
+      "peak_rss_kib": 99112,
+      "stage": "regular-one-bit",
+      "wall_seconds": 9.103258643000004,
+      "workers": 1
+    },
+    {
+      "address_space_limit_bytes": 3221225472,
+      "cpu_seconds": 0.0033227149999999206,
+      "peak_rss_kib": 100652,
+      "stage": "saturation",
+      "wall_seconds": 0.003335604999961106,
+      "workers": 1
+    }
+  ],
+  "scope": "all registered deterministic scientific stages in the retained campaign",
+  "stages": 22,
+  "total_cpu_seconds": 73.176162508,
+  "total_wall_seconds": 73.18614286199977,
+  "workers": 1
+}

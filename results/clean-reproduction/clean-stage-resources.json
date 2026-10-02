@@ -1,0 +1,32 @@
+{
+  "address_space_limit_bytes": 3221225472,
+  "cpu_seconds_sum": 72.586790086,
+  "files": [
+    "annotated-composition-resources.json",
+    "annotated-expansions-resources.json",
+    "bisimulation-resources.json",
+    "boundaries-resources.json",
+    "canonical-expansions-resources.json",
+    "classify0-resources.json",
+    "classify1-resources.json",
+    "classify2-resources.json",
+    "classify3-resources.json",
+    "classify4-resources.json",
+    "composition-resources.json",
+    "expansion-resources.json",
+    "graphs-resources.json",
+    "monitor-resources.json",
+    "public-budget-resources.json",
+    "regular-annotated-resources.json",
+    "regular-blocks-resources.json",
+    "regular-certificates-resources.json",
+    "regular-composition-resources.json",
+    "regular-decisions-resources.json",
+    "regular-one-bit-resources.json",
+    "saturation-resources.json"
+  ],
+  "maximum_stage_peak_rss_kib": 104752,
+  "stages": 22,
+  "wall_seconds_sum": 72.59287028400058,
+  "workers_max": 1
+}

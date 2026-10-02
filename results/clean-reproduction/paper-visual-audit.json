@@ -1,0 +1,481 @@
+{
+  "summary": {
+    "pages": 50,
+    "dpi": 220,
+    "page_dimensions": [
+      [
+        1485,
+        2200
+      ]
+    ],
+    "blank_pages": [],
+    "outer_8px_ink_pages": [],
+    "outer_20px_max_dark_pixels": 0,
+    "nonwhite_fraction_min": 0.061075604530149985,
+    "nonwhite_fraction_max": 0.11721854912764004,
+    "targeted_pages": {
+      "7": "Figure 1 edge-class/nonempty-block labels inspected at full size",
+      "24": "Figure 3 final-arrow label inspected at full size"
+    },
+    "contact_sheets": [
+      "pages-01-10",
+      "pages-11-20",
+      "pages-21-30",
+      "pages-31-40",
+      "pages-41-50"
+    ],
+    "visual_result": "No clipping, overlap, missing figure, blank page, or unreadable contact-sheet anomaly observed."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.10727823691460055,
+      "verydark_fraction": 0.05775451484542394,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 2,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.11445056626874808,
+      "verydark_fraction": 0.0607670645852464,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 3,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.09385154576063667,
+      "verydark_fraction": 0.050256198347107435,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 4,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.07142240587695133,
+      "verydark_fraction": 0.037611570247933886,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 5,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.08630547903275176,
+      "verydark_fraction": 0.04560942760942761,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 6,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.08151637588001225,
+      "verydark_fraction": 0.043410774410774414,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 7,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.06513865932047751,
+      "verydark_fraction": 0.0335993265993266,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 8,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.07802754820936639,
+      "verydark_fraction": 0.04110682583409856,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 9,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.08730670339761248,
+      "verydark_fraction": 0.04569880624426079,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 10,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.08784328129782676,
+      "verydark_fraction": 0.04657300275482094,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 11,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.07852464034282217,
+      "verydark_fraction": 0.041426997245179065,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 12,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.09357759412304867,
+      "verydark_fraction": 0.04928650137741047,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 13,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.10129384756657484,
+      "verydark_fraction": 0.05336853382307928,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 14,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.08703367003367003,
+      "verydark_fraction": 0.04697857361493725,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 15,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.08472176308539944,
+      "verydark_fraction": 0.04492745638200184,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 16,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.061075604530149985,
+      "verydark_fraction": 0.03207560453014999,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 17,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.07806887052341598,
+      "verydark_fraction": 0.041038567493112944,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 18,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.08181267217630854,
+      "verydark_fraction": 0.0428561371288644,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 19,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.07936210590756046,
+      "verydark_fraction": 0.0416164677073768,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 20,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.07764952555861647,
+      "verydark_fraction": 0.04059044995408632,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 21,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.0771677379859198,
+      "verydark_fraction": 0.040332721150902966,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 22,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.08781359044995408,
+      "verydark_fraction": 0.046351086623813896,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 23,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.10422007958371594,
+      "verydark_fraction": 0.05529813284358739,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 24,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.07482736455463729,
+      "verydark_fraction": 0.03891521273339455,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 25,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.08978053259871442,
+      "verydark_fraction": 0.04744964799510254,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 26,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.0905892255892256,
+      "verydark_fraction": 0.04798041016222834,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 27,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.09783930211202939,
+      "verydark_fraction": 0.051625650443832265,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 28,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.07745454545454546,
+      "verydark_fraction": 0.04050841750841751,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 29,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.09804560759106214,
+      "verydark_fraction": 0.05213376186103459,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 30,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.09847750229568411,
+      "verydark_fraction": 0.053389348025711665,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 31,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.0785102540557086,
+      "verydark_fraction": 0.0427312519130701,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 32,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.10111662075298439,
+      "verydark_fraction": 0.05340495867768595,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 33,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.09656014692378329,
+      "verydark_fraction": 0.052322314049586774,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 34,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.08043189470462198,
+      "verydark_fraction": 0.04318549127640037,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 35,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.08841720232629323,
+      "verydark_fraction": 0.047455463728191004,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 36,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.10904928068564432,
+      "verydark_fraction": 0.05821456994184267,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 37,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.11721854912764004,
+      "verydark_fraction": 0.06218181818181818,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 38,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.09111662075298439,
+      "verydark_fraction": 0.049062136516681974,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 39,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.09331588613406795,
+      "verydark_fraction": 0.049393327211509026,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 40,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.10167401285583104,
+      "verydark_fraction": 0.05358126721763085,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 41,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.09022283440465259,
+      "verydark_fraction": 0.04743281297826752,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 42,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.10294153657790021,
+      "verydark_fraction": 0.05449280685644322,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 43,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.10283746556473829,
+      "verydark_fraction": 0.053979185797367615,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 44,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.09177134986225895,
+      "verydark_fraction": 0.04845485154576064,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 45,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.08114263850627487,
+      "verydark_fraction": 0.04339332721150903,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 46,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.0946831955922865,
+      "verydark_fraction": 0.050101622283440464,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 47,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.09352066115702479,
+      "verydark_fraction": 0.04928374655647383,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 48,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.10219742883379247,
+      "verydark_fraction": 0.05382124273033364,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 49,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.10030884603611877,
+      "verydark_fraction": 0.04637863483318029,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    },
+    {
+      "page": 50,
+      "width": 1485,
+      "height": 2200,
+      "nonwhite_fraction": 0.08301622283440466,
+      "verydark_fraction": 0.03801897765534129,
+      "dark_pixels_outer_8px": 0,
+      "dark_pixels_outer_20px": 0
+    }
+  ]
+}
