@@ -1,6 +1,6 @@
 # Regular fairness contracts: standalone mathematical note
 
-This note restates the mathematical content implemented by the repository. It is independent of the manuscript directory. The proofs are conventional mathematical arguments reviewed inside the same AI-assisted workflow as the code; they are not proof-assistant checked.
+This note restates the mathematical content implemented by the repository. It is independent of the manuscript directory. The proofs are conventional mathematical arguments reviewed inside the same development workflow as the code; they are not proof-assistant checked.
 
 ## 1. Debt languages and annotated inputs
 

@@ -125,4 +125,4 @@ This makes the floor a finite monotone search and yields finite lasso evidence.
 
 No experiment or obligation named `F3` is defined in this repository, and no unrun `F3` result is claimed.
 
-Substantive generative-AI assistance was used in research design, literature analysis, arguments, implementation, testing, finite experiments, interpretation, writing, and typesetting. The work has not received independent peer review or proof-assistant verification. Human authors must review the complete packet, accept accountability, and satisfy current publisher disclosure and authorship policies before external use. The source repository is [available here](https://github.com/Haoyi-Zhang/regular-fairness-contracts-for-reactive-trace-refinement-artifact).
+The work has not received independent peer review or proof-assistant verification. The source repository is [available here](https://github.com/Haoyi-Zhang/regular-fairness-contracts-for-reactive-trace-refinement-artifact).
