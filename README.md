@@ -6,7 +6,7 @@ The repository also contains a canonical microstep expansion of finite reactive 
 
 ## Reproduce the retained campaign
 
-Requirements: Linux, Python 3.10 or later, and the Python standard library. No package installation, solver, proof assistant, network request, GPU, private data, model API, or external service is used. Run from this directory without `-O` or `PYTHONOPTIMIZE`:
+Requirements: Linux, Python 3.10 or later, and the Python standard library. The reproduction commands run locally without installing packages or contacting external services. Run from this directory without `-O` or `PYTHONOPTIMIZE`:
 
 ```sh
 python3 -m unittest -v test_artifact
@@ -64,7 +64,9 @@ The three-symbol family is important: two source symbols can have the same fairn
 
 The direct floor evidence is retained in `results/stateless-floor-0.csv` through `results/stateless-floor-4.csv`. Each row records the formula value, the independent fixed-bound reflection answers at `R-1` and `R`, and a reverse lasso accepted by the packet checker.
 
-`results/campaign-resources.json` records the retained 22-stage campaign: 73.176 CPU seconds, 73.186 wall seconds, one worker, a 3 GiB address-space ceiling, and maximum retained peak RSS of 104,876 KiB in the execution environment. These numbers are resource accounting, not performance claims.
+`results/campaign-resources.json` aggregates 22 retained stage executions: 73.176 CPU seconds, 73.186 wall seconds, one worker, a 3 GiB ceiling, and maximum RSS sample 104,876 KiB. They need not share one uninterrupted process lifetime. The RSS field is the invocation's process-lifetime peak sampled at stage completion, not an isolated-stage peak. These are retained resource records, not current measurements or performance comparisons.
+
+The paper's linear graph bounds describe abstract implementations with cached profiles, linear traversals and predecessor-based witnesses. The Python reference instead uses repeated profile/live-set/reachability scans and path copying; dead-end elimination is quadratic on a chain. The correctness contract and retained finite outcomes do not depend on realizing the abstract linear bound.
 
 ## Repository map
 
@@ -120,9 +122,7 @@ This makes the floor a finite monotone search and yields finite lasso evidence.
 - The low-observation result is possibilistic trace equality. It is not probabilistic noninterference or cryptographic constant time.
 - Coordinatewise fairness is sound only when every coordinate shares the same underlying expanded run. Independent per-coordinate expansions do not establish simultaneous schedulability.
 - Finite enumeration validates the distributed implementation on declared domains. It is not a proof of the general theorems and not practical workload evidence.
-- The certificate checkers are handwritten Python, not extracted from Rocq, Lean, Isabelle, or another proof assistant.
+- The certificate checkers are Python programs, not extracted from a proof assistant.
 - No production compiler correspondence is implemented. Applying the theorem requires a separate two-sided run relation and justification of source annotations, target blocks, low labels, and viability.
-
-No experiment or obligation named `F3` is defined in this repository, and no unrun `F3` result is claimed.
 
 The work has not received independent peer review or proof-assistant verification. The source repository is [available here](https://github.com/Haoyi-Zhang/regular-fairness-contracts-for-reactive-trace-refinement-artifact).
