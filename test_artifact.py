@@ -333,6 +333,17 @@ class RegularContractTests(unittest.TestCase):
         }
         self.assertTrue(cd.check(reverse_packet))
 
+    def test_initial_target_overflow_has_empty_forward_prefix(self):
+        # No emitted bit is needed when the initial debt already exceeds C.
+        machine = tr.morphism((0,), (1,))
+        packet = cd.generate(machine, 2, 0, 1, 1)
+        self.assertEqual(packet['direction'], 'source-valid-target-invalid')
+        self.assertEqual(packet['prefix'], [])
+        self.assertTrue(cd.check(packet))
+        answer = co.equivalent(machine, 2, 0, 1, 1)
+        self.assertTrue(answer.source_not_target)
+        self.assertFalse(answer.target_not_source)
+
     def test_three_symbol_annotations_roundtrip_and_oracle(self):
         machine = tr.Transducer((
             (tr.Transition(1, (0,)), tr.Transition(0, (1,)), tr.Transition(1, (1, 1))),
@@ -474,6 +485,36 @@ class CanonicalExpansionTests(unittest.TestCase):
         long_chain = expanded.chain_edges[machine.initial, 1]
         with self.assertRaises(ValueError):
             ex.decompose_target_edge_path(expanded, long_chain[:-1])
+
+    def test_every_target_edge_id_must_be_an_integer(self):
+        source = ex.TraceSystem(1, 0, (ex.Edge(0, 0, 0, 7),))
+        machine = tr.morphism((0, 0), (1,))
+        expanded = ex.canonical_expansion(source, machine)
+        path = ex.expand_target_edge_path(expanded, source, machine, (0,))
+        self.assertEqual(path, (0, 1))
+        self.assertEqual(ex.decompose_target_edge_path(expanded, path), (0,))
+        # Tuple equality aliases True and 1.0 to integer 1. Validation must
+        # cover interior ids, not just the first edge of each complete chain.
+        for invalid in (True, 1.0, -1, len(expanded.system.edges)):
+            with self.assertRaises(ValueError):
+                ex.decompose_target_edge_path(expanded, (path[0], invalid))
+
+    def test_visible_prefix_then_silent_continuation(self):
+        source = ex.TraceSystem(2, 0, (
+            ex.Edge(0, 1, 0, 7), ex.Edge(1, 1, 0, ex.ERASE),
+        ))
+        machine = tr.morphism((1, 0), (1,))
+        expanded = ex.canonical_expansion(source, machine)
+        self.assertTrue(co.equivalent(machine, 0, 1).equivalent)
+        for silent_steps in range(6):
+            path = (0,) + (1,) * silent_steps
+            target = ex.expand_target_edge_path(expanded, source, machine, path)
+            self.assertEqual(ex.decompose_target_edge_path(expanded, target), path)
+            self.assertEqual(ex.erase(tuple(expanded.system.edges[i].low for i in target)), (7,))
+        source_graph, _ = ex.monitored_graph(source, 0)
+        target_graph, _ = ex.monitored_graph(expanded.system, 1)
+        self.assertIn(0, ex.live(source_graph))
+        self.assertIn(0, ex.live(target_graph))
 
     def test_monitor_viability_agrees_under_exact_contract(self):
         source = self.system()

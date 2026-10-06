@@ -15,7 +15,7 @@ python3 check_reproduction.py results reproduced
 python3 certificates.py results/certificates/m017-b0.json
 ```
 
-The first command runs 45 tests, including regressions for overlapping negative directions, semantic invalid-floor thresholds, vector-coordinate masking, and parallel expansion chains with identical structural edges. The second executes 22 deterministic stages in one process and writes a fresh directory. The third compares every deterministic CSV, JSON summary, exact input, and retained certificate packet; machine-dependent CPU, wall-time, and peak-RSS records are intentionally excluded. The final command exercises the independent command-line parser and local live-set checker on one retained graph certificate.
+The first command runs 48 tests, including regressions for overlapping negative directions, semantic invalid-floor thresholds, vector-coordinate masking, and parallel expansion chains with identical structural edges. It also checks an initially overflowing target debt, rejection of non-integer identifiers inside microstep chains, and visible-prefix/silent-continuation observation erasure. The second executes 22 deterministic stages in one process and writes a fresh directory. The third compares every deterministic CSV, JSON summary, exact input, and retained certificate packet; machine-dependent CPU, wall-time, and peak-RSS records are intentionally excluded. The final command exercises the independent command-line parser and local live-set checker on one retained graph certificate.
 
 The campaign can be resumed one stage at a time:
 
@@ -39,6 +39,8 @@ A stage-only directory is not a complete comparison target. Do not overwrite `re
 
 The retained clean-copy replay is recorded in `results/clean-reproduction/`. All 45 tests and all 22 stages were rerun from a clean copy using the documented stage interface; the final summary contains every stage exactly once, and the comparator matched 60 deterministic scientific files with zero mismatches. The paper was separately rebuilt from source-only input to 50 pages with all fonts embedded and an empty critical-warning scan.
 
+A subsequent local Windows/Python 3.12.14 check passed the current 48 tests and replayed the same 22 scientific stage functions, matching all 60 deterministic files. Because Windows lacks the driver's Unix `resource` module, a separate one-worker harness invoked those functions without the Linux driver entry point; it imposed a 600-second timeout and a 3 GiB process committed-memory limit. This replay took 83.451 wall seconds and 80.953 CPU seconds with a 37,462,016-byte process-lifetime peak working set. These Windows measurements are not the retained Linux address-space/RSS measurements or a performance comparison. The edited manuscript source has not been rebuilt in this check.
+
 ## Main retained results
 
 | Check | Complete retained domain | Outcome |
@@ -51,7 +53,7 @@ The retained clean-copy replay is recorded in `results/clean-reproduction/`. All
 | Stateless closed-form classification and semantic floor | 449,820 fixed configurations; 1,980 direct floor instances | 2,232 exact equalities; 3,960 `R-1`/`R` reflection checks and 1,980 lasso witnesses; 0 disagreements |
 | Public-budget families | 360 configurations | 167 feasible; 193 infeasible |
 | Auxiliary monitor and graph semantics | 21,844 event-word checks; 900 monitored products; 216,000 Boolean property answers | 0 disagreements |
-| Unit tests | 45 tests, including all 531 directed graphs on at most three vertices plus endpoint, vector-mask, and parallel-edge regressions | all pass |
+| Current unit tests | 48 tests, including all 531 directed graphs on at most three vertices plus endpoint, vector-mask, typed chain-ID, and silent-continuation regressions | all pass in the local replay; retained clean-copy record has 45 tests |
 
 The stateful total combines three separately reported families:
 
@@ -83,7 +85,7 @@ The paper's linear graph bounds describe abstract implementations with cached pr
 | `fairness.py`, `reference.py`, `certificates.py` | Debt monitors, finite reactive systems, graph queries, bisimulation, saturation, and generic live-set certificates. |
 | `reproduce.py` | One-worker 22-stage campaign driver with a 3 GiB address-space limit. |
 | `check_reproduction.py` | Semantic result comparator; resource files are excluded. |
-| `test_artifact.py` | Forty-five unit, boundary, parser, relabeling, oracle, composition, certificate, endpoint, vector-mask, and expansion tests. |
+| `test_artifact.py` | Forty-eight unit, boundary, parser, relabeling, oracle, composition, certificate, endpoint, vector-mask, and expansion tests. |
 | `theory.md` | Standalone definitions, theorem statements, proof architecture, worked example, and scope. |
 | `literature.md`, `references.bib` | Closest-work comparison and bibliographic metadata used by the project. |
 | `claim_evidence_ledger.csv` | Material-claim to theorem/code/result mapping and maturity. |
@@ -115,6 +117,13 @@ H = t + (((B + 2) * |Q|) + 2) * L.
 
 This makes the floor a finite monotone search and yields finite lasso evidence.
 
+The current Ubuntu run is retained under `results/current/`. All 48 tests and
+22 stages pass, and all 60 deterministic scientific files match the canonical
+records. Stage wall times total 102.512148 seconds, CPU times 102.486667 seconds,
+and process-lifetime peak RSS is 27,908 KiB. These are separate measurements
+from the historical host run. Large current CSV/log files are losslessly gzip
+compressed; decompress a copy for tools expecting the original filename.
+
 ## Interpretation and trust boundary
 
 - The results quantify over infinite paths, not adversarial scheduler strategies. Strategy transfer would require a game model and observable-history relation.
@@ -125,4 +134,4 @@ This makes the floor a finite monotone search and yields finite lasso evidence.
 - The certificate checkers are Python programs, not extracted from a proof assistant.
 - No production compiler correspondence is implemented. Applying the theorem requires a separate two-sided run relation and justification of source annotations, target blocks, low labels, and viability.
 
-The work has not received independent peer review or proof-assistant verification. The source repository is [available here](https://github.com/Haoyi-Zhang/regular-fairness-contracts-for-reactive-trace-refinement-artifact).
+The work has not received independent peer review or proof-assistant verification. The source repository is [available here](https://github.com/Haoyi-Zhang/FairTrace-code).

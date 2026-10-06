@@ -108,7 +108,7 @@ Thus, in a topological order of `G1`, `D(v)` is the maximum of the initial seed,
 
 Every recurrence term is attainable by a source-safe prefix. Predecessor pointers yield a finite witness, and repetition of any reset-annotated symbol extends it to a fair infinite word without removing the already attained peak. Therefore the computed maximum equals the semantic supremum.
 
-The graph has at most `(B+1)|Q|` vertices and `(B+1)|Q||Sigma|` edges. With explicit output blocks, cycle detection, topological sorting, and the recurrence are linear in this graph and the stored blocks. The dependence on a binary-encoded `B` is pseudo-polynomial.
+The graph has at most `(B+1)|Q|` vertices and `(B+1)|Q||Sigma|` edges. With cached transition profiles, linear graph traversals, and predecessor-based witnesses, the abstract algorithm is linear in this graph plus the explicit output representation. The shipped Python reference instead rescans block profiles at debt-state copies, repeatedly removes dead ends, and copies witness paths. Dead-end removal alone is quadratic on a zero-free chain; the abstract linear bound is not a bound for that implementation. The dependence on a binary-encoded `B` remains pseudo-polynomial.
 
 ## 5. Invalid floor
 
@@ -169,7 +169,7 @@ These finite checks establish preservation and reflection for the fixed paramete
 
 If a fixed candidate is inexact, one of two directional witnesses exists:
 
-- **source-valid / target-invalid:** a finite source-safe prefix whose emitted target block overflows `C`; repeating a reset source symbol extends it to a source-fair infinite counterexample;
+- **source-valid / target-invalid:** a finite source-safe prefix whose target monitor is already invalid, either at the initial boundary when `t > C` (the empty prefix suffices) or after an emitted bit overflows `C`; repeating a reset source symbol extends it to a source-fair infinite counterexample;
 - **source-invalid / target-valid:** a finite stem reaching absorbing source overflow plus a nonempty target-safe product loop, yielding a source-unfair, target-fair lasso.
 
 Thus every fixed candidate admits a complete precedence-ordered decision: exact candidates have a positive certificate; an inexact candidate has a forward prefix whenever preservation fails and a reverse lasso whenever reflection fails. The two negative witnesses can coexist, so the generator uses the canonical priority `exact`, then `forward`, then `reverse`. The checker reconstructs all semantic steps from the transducer and parameters rather than trusting serialized successor claims.

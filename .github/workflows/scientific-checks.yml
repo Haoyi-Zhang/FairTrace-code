@@ -1,0 +1,47 @@
+name: Scientific checks
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  finite-contract-campaign:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    env:
+      PYTHONUTF8: '1'
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      MIN_EXPECTED_PYTHON_SOURCES: '16'
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - name: Run bounded owned finite checks and compare retained evidence
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p raw-output
+          timeout --signal=TERM --kill-after=15s 480s bash -euo pipefail <<'RUN' 2>&1 | tee raw-output/whole-run.log
+          ulimit -v 3145728
+          python -B .github/scripts/check_repository.py 2>&1 | tee raw-output/material-integrity.log
+          python -B -m unittest -v test_artifact 2>&1 | tee raw-output/unit-tests.log
+          python -B reproduce.py --output raw-output/reproduced 2>&1 | tee raw-output/campaign.log
+          python -B check_reproduction.py results raw-output/reproduced 2>&1 | tee raw-output/comparison.log
+          python -B certificates.py results/certificates/m017-b0.json 2>&1 | tee raw-output/certificate.log
+          RUN
+      - name: Retain raw output even on a failed scientific gate
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: scientific-raw-output
+          path: raw-output/
+          if-no-files-found: warn
+          retention-days: 14

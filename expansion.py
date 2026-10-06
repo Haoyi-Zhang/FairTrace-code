@@ -164,6 +164,10 @@ def decompose_target_edge_path(expanded: Expanded,
     """
     if not isinstance(target_edge_ids, tuple):
         raise ValueError('target edge path must be a tuple of stable edge ids')
+    if any(type(edge_id) is not int or
+           not 0 <= edge_id < len(expanded.system.edges)
+           for edge_id in target_edge_ids):
+        raise ValueError('invalid target edge id')
     current = expanded.system.initial
     cursor = 0
     source_path: list[int] = []
