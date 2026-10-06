@@ -1,8 +1,9 @@
 """Exact inverse-image classification for non-erasing binary word morphisms.
 
-`classifies` is an executable formula, not a formal proof assistant. Its proof is
-spelled out in proofs.md and compared with an independent finite omega-language
-oracle. Counters start at the explicitly supplied initial debt.
+`classifies` is an executable formula, not a formal proof assistant. The companion
+paper's stateless-classification section supplies the complete proofs; theory.md
+provides standalone definitions and proof architecture. A separate finite
+omega-language oracle checks the formula. Counters start at the supplied debt.
 """
 from __future__ import annotations
 from dataclasses import dataclass
