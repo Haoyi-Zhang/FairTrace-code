@@ -68,7 +68,14 @@ The direct floor evidence is retained in `results/stateless-floor-0.csv` through
 
 `results/campaign-resources.json` aggregates 22 retained stage executions: 73.176 CPU seconds, 73.186 wall seconds, one worker, a 3 GiB ceiling, and maximum RSS sample 104,876 KiB. They need not share one uninterrupted process lifetime. The RSS field is the invocation's process-lifetime peak sampled at stage completion, not an isolated-stage peak. These are retained resource records, not current measurements or performance comparisons.
 
-The paper's linear graph bounds describe abstract implementations with cached profiles, linear traversals and predecessor-based witnesses. The Python reference instead uses repeated profile/live-set/reachability scans and path copying; dead-end elimination is quadratic on a chain. The correctness contract and retained finite outcomes do not depend on realizing the abstract linear bound.
+The paper's linear graph bounds describe abstract implementations with cached profiles, linear traversals and predecessor-based witnesses. The Python reference now lazily reuses one immutable profile per encountered `(control, symbol)` within each source-safe graph construction. Repeated live-set/reachability scans and path copying remain; dead-end elimination is quadratic on a chain. This bounded allocation change establishes no measured speedup or full linear implementation bound. The correctness contract and retained finite outcomes do not depend on realizing the abstract linear bound.
+
+Six supplemental tests run with `python -B -m unittest -v test_profile_reuse`
+and in the scientific workflow alongside the existing 48-test module. They
+use a concrete-bit test-local reference and cover ceiling witnesses, fixed-bound
+decisions, local profile reuse, call isolation, state-budget boundaries and
+validation order. Historical 45/48-test receipts and 22-stage results remain
+separate; these regressions do not constitute a fresh full campaign.
 
 ## Repository map
 

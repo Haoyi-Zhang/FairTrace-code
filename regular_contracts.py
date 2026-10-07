@@ -108,6 +108,7 @@ def _safe_controls(machine: Transducer, bound: int, debt: int):
     index = {start: 0}
     parent: list[tuple[int, int] | None] = [None]
     rows: list[list[tuple[int, int, BlockProfile]]] = []
+    profiles: dict[tuple[int, int], BlockProfile] = {}
     cursor = 0
     while cursor < len(states):
         source, q = states[cursor]
@@ -125,7 +126,12 @@ def _safe_controls(machine: Transducer, bound: int, debt: int):
                 index[nxt] = len(states)
                 states.append(nxt)
                 parent.append((cursor, symbol))
-            row.append((symbol, index[nxt], profile(edge.output)))
+            key = (q, symbol)
+            block = profiles.get(key)
+            if block is None:
+                block = profile(edge.output)
+                profiles[key] = block
+            row.append((symbol, index[nxt], block))
         rows.append(row)
         cursor += 1
     return states, rows, parent

@@ -33,6 +33,7 @@ jobs:
           ulimit -v 3145728
           python -B .github/scripts/check_repository.py 2>&1 | tee raw-output/material-integrity.log
           python -B -m unittest -v test_artifact 2>&1 | tee raw-output/unit-tests.log
+          python -B -m unittest -v test_profile_reuse 2>&1 | tee raw-output/profile-regressions.log
           python -B reproduce.py --output raw-output/reproduced 2>&1 | tee raw-output/campaign.log
           python -B check_reproduction.py results raw-output/reproduced 2>&1 | tee raw-output/comparison.log
           python -B certificates.py results/certificates/m017-b0.json 2>&1 | tee raw-output/certificate.log
