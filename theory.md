@@ -108,7 +108,7 @@ Thus, in a topological order of `G1`, `D(v)` is the maximum of the initial seed,
 
 Every recurrence term is attainable by a source-safe prefix. Predecessor pointers yield a finite witness, and repetition of any reset-annotated symbol extends it to a fair infinite word without removing the already attained peak. Therefore the computed maximum equals the semantic supremum.
 
-The graph has at most `(B+1)|Q|` vertices and `(B+1)|Q||Sigma|` edges. With cached transition profiles, linear graph traversals, and predecessor-based witnesses, the abstract algorithm is linear in this graph plus the explicit output representation. The shipped Python reference instead rescans block profiles at debt-state copies, repeatedly removes dead ends, and copies witness paths. Dead-end removal alone is quadratic on a zero-free chain; the abstract linear bound is not a bound for that implementation. The dependence on a binary-encoded `B` remains pseudo-polynomial.
+The graph has at most `(B+1)|Q|` vertices and `(B+1)|Q||Sigma|` edges. With cached transition profiles, linear graph traversals, and predecessor-based witnesses, the abstract algorithm is linear in this graph plus the explicit output representation. The shipped Python reference caches block profiles by control state and input symbol within each invocation, but repeatedly removes dead ends and copies witness paths. Dead-end removal alone is quadratic on a zero-free chain; the abstract linear bound is not a bound for that implementation. The dependence on a binary-encoded `B` remains pseudo-polynomial.
 
 ## 5. Invalid floor
 
