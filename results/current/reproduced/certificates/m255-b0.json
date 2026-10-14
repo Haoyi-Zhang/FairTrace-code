@@ -1,0 +1,14 @@
+{
+  "certificate": {
+    "live": [],
+    "rank": {
+      "0": 0,
+      "1": 0
+    },
+    "successor": {}
+  },
+  "graph": [
+    [],
+    []
+  ]
+}

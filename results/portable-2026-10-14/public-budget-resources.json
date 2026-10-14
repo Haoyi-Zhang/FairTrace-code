@@ -1,0 +1,9 @@
+{
+  "address_space_limit_bytes": null,
+  "cpu_seconds": 0.03125,
+  "peak_rss_kib": null,
+  "resource_backend": "portable-no-posix-limit",
+  "stage": "public-budget",
+  "wall_seconds": 0.03493140000500716,
+  "workers": 1
+}

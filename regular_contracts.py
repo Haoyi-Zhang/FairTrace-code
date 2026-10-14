@@ -147,13 +147,26 @@ def _input_path(parent: list[tuple[int, int] | None], vertex: int) -> tuple[int,
 
 
 def _live_vertices(adjacency: list[list[tuple[int, int]]]) -> set[int]:
-    """Vertices from which some infinite path exists, by dead-end removal."""
+    """Existential infinite-path vertices by linear predecessor-queue peeling.
+
+    Count edge occurrences, including parallel symbol-labelled edges. Every
+    vertex is queued at most once and each incoming occurrence is retired once.
+    """
+    predecessors: list[list[int]] = [[] for _ in adjacency]
+    remaining = [len(row) for row in adjacency]
+    for source, row in enumerate(adjacency):
+        for _, target in row:
+            predecessors[target].append(source)
+    queue = deque(v for v, degree in enumerate(remaining) if degree == 0)
     active = set(range(len(adjacency)))
-    while True:
-        following = {v for v in active if any(w in active for _, w in adjacency[v])}
-        if following == active:
-            return active
-        active = following
+    while queue:
+        vertex = queue.popleft()
+        active.remove(vertex)
+        for source in predecessors[vertex]:
+            remaining[source] -= 1
+            if remaining[source] == 0:
+                queue.append(source)
+    return active
 
 
 def _find_directed_cycle(adjacency: list[list[tuple[int, int]]]) -> tuple[int, tuple[int, ...]] | None:
@@ -210,45 +223,60 @@ def safe_ceiling(machine: Transducer, source_bound: int, source_debt: int = 0,
         raise AssertionError('cycle detector/topological order disagreement')
 
     debt = [-1] * len(states)
-    debt_path: list[tuple[int, ...] | None] = [None] * len(states)
+    # A link is (reset_seed, predecessor, symbol). Reset seeds terminate
+    # reconstruction in the BFS tree; zero-free links follow the DAG. No full
+    # path is copied for each relaxation.
+    debt_link: list[tuple[bool, int, int] | None] = [None] * len(states)
     debt[0] = target_debt
-    debt_path[0] = ()
 
     # A resetful edge supplies a fixed suffix seed, independent of incoming debt.
     for source, row in enumerate(rows):
-        base = _input_path(parent, source)
         for bit, target, block in row:
             if block.resetful and block.suffix > debt[target]:
                 debt[target] = block.suffix
-                debt_path[target] = base + (bit,)
+                debt_link[target] = (True, source, bit)
 
     maximum = target_debt
-    witness: tuple[int, ...] = ()
+    witness_edge: tuple[int, int] | None = None
     kind = 'initial-debt'
     # All dependence-preserving edges form a DAG; reset edges only contribute
     # fixed seeds and local maxima, so one topological pass is exact.
     for source in order:
-        if debt[source] < 0 or debt_path[source] is None:
+        if debt[source] < 0:
             continue
         for bit, target, block in rows[source]:
             if block.resetful:
                 candidate = max(debt[source] + block.prefix, block.internal, block.suffix)
                 if candidate > maximum:
                     maximum = candidate
-                    witness = debt_path[source] + (bit,)
+                    witness_edge = (source, bit)
                     kind = 'reset-block-prefix-or-internal'
             else:
                 candidate = debt[source] + block.length
-                path = debt_path[source] + (bit,)
                 if candidate > maximum:
                     maximum = candidate
-                    witness = path
+                    witness_edge = (source, bit)
                     kind = 'zero-free-path'
                 if candidate > debt[target]:
                     debt[target] = candidate
-                    debt_path[target] = path
+                    debt_link[target] = (False, source, bit)
     if any(value < 0 for value in debt):
         raise AssertionError('reachable safe control without a debt witness')
+    witness: tuple[int, ...] = ()
+    if witness_edge is not None:
+        vertex, bit = witness_edge
+        trailing = [bit]
+        while debt_link[vertex] is not None:
+            reset_seed, source, symbol = debt_link[vertex]
+            trailing.append(symbol)
+            if reset_seed:
+                witness = _input_path(parent, source) + tuple(reversed(trailing))
+                break
+            vertex = source
+        else:
+            if vertex != 0:
+                raise AssertionError('debt predecessor chain lacks an initial or reset seed')
+            witness = tuple(reversed(trailing))
     return CeilingResult(maximum, witness, kind)
 
 

@@ -1,0 +1,56 @@
+{
+  "direction": "source-invalid-target-valid",
+  "loop": [
+    0,
+    0
+  ],
+  "parameters": {
+    "source_bound": 0,
+    "source_debt": 0,
+    "target_bound": 3,
+    "target_debt": 0
+  },
+  "prefix": [
+    1,
+    0
+  ],
+  "schema": "fair-contract-decision-1",
+  "transducer": {
+    "initial": 0,
+    "input_resets": [
+      0,
+      1
+    ],
+    "transitions": [
+      [
+        {
+          "next": 1,
+          "output": [
+            0
+          ]
+        },
+        {
+          "next": 0,
+          "output": [
+            1
+          ]
+        }
+      ],
+      [
+        {
+          "next": 0,
+          "output": [
+            0
+          ]
+        },
+        {
+          "next": 1,
+          "output": [
+            1
+          ]
+        }
+      ]
+    ]
+  },
+  "verdict": "inexact"
+}

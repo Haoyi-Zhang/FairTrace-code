@@ -9,7 +9,12 @@ import csv
 import itertools as it
 import json
 from pathlib import Path
-import resource
+try:
+    import resource
+except ImportError:
+    resource = None
+import platform
+import sys
 import time
 
 import fairness as f
@@ -266,23 +271,47 @@ def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--output', type=Path, default=Path('reproduced'))
     parser.add_argument('--stage', choices=STAGES)
+    parser.add_argument('--portable', action='store_true',
+                        help='explicitly run without POSIX address-space/RSS support; record nulls')
     args=parser.parse_args()
     # Single process; the runner never spawns child workers or invokes a network.
-    limit=3*1024**3
-    soft,hard=resource.getrlimit(resource.RLIMIT_AS)
-    if hard != resource.RLIM_INFINITY: limit=min(limit,hard)
-    resource.setrlimit(resource.RLIMIT_AS,(limit,limit))
-    args.output.mkdir(parents=True,exist_ok=True)
+    limit = None
+    if not args.portable:
+        if resource is None:
+            parser.error('POSIX resource support unavailable; use --portable for explicitly unbounded resource scope')
+        limit=3*1024**3
+        soft,hard=resource.getrlimit(resource.RLIMIT_AS)
+        if hard != resource.RLIM_INFINITY: limit=min(limit,hard)
+        resource.setrlimit(resource.RLIMIT_AS,(limit,limit))
+    existed = args.output.exists()
+    if existed and not args.stage:
+        parser.error('full campaign requires a fresh output directory')
+    if existed and not (args.output / 'summary.json').is_file():
+        parser.error('stage resume requires a recorded summary in an existing directory')
+    args.output.mkdir(parents=True,exist_ok=args.stage is not None)
     summary_path=args.output/'summary.json'
     summary=json.loads(summary_path.read_text()) if args.stage and summary_path.exists() else {}
+    if not isinstance(summary, dict) or not set(summary) <= set(STAGES):
+        parser.error('invalid stage summary')
+    if args.stage in summary:
+        parser.error('stage already recorded; use a fresh output directory')
+    environment_path = args.output / (
+        f'{args.stage}-environment.json' if args.stage else 'environment.json')
+    write_json(environment_path, {
+        'python': sys.version, 'executable': sys.executable, 'platform': platform.platform(),
+        'argv': sys.argv, 'assertions_enabled': __debug__,
+        'resource_backend': 'portable-no-posix-limit' if args.portable else 'posix-resource',
+        'address_space_limit_bytes': limit,
+    })
     timings=[]
     for stage in (args.stage,) if args.stage else STAGES:
         wall=time.perf_counter(); cpu=time.process_time()
         summary[stage]=FUNCTIONS[stage](args.output)
         timing=dict(stage=stage, wall_seconds=time.perf_counter()-wall,
                     cpu_seconds=time.process_time()-cpu,
-                    peak_rss_kib=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss,
-                    workers=1, address_space_limit_bytes=limit)
+                    peak_rss_kib=(None if args.portable else resource.getrusage(resource.RUSAGE_SELF).ru_maxrss),
+                    workers=1, address_space_limit_bytes=limit,
+                    resource_backend='portable-no-posix-limit' if args.portable else 'posix-resource')
         timings.append(timing); write_json(args.output/f'{stage}-resources.json',timing)
         write_json(summary_path,summary)
         print(json.dumps(dict(stage=stage, result=summary[stage], resources=timing)),flush=True)

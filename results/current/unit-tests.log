@@ -1,0 +1,53 @@
+test_bad_path_and_bad_system (test_artifact.CanonicalExpansionTests.test_bad_path_and_bad_system) ... ok
+test_edge_class_specific_three_symbol_expansion (test_artifact.CanonicalExpansionTests.test_edge_class_specific_three_symbol_expansion) ... ok
+test_every_target_edge_id_must_be_an_integer (test_artifact.CanonicalExpansionTests.test_every_target_edge_id_must_be_an_integer) ... ok
+test_expansion_chains_and_deterministic_interiors (test_artifact.CanonicalExpansionTests.test_expansion_chains_and_deterministic_interiors) ... ok
+test_finite_path_reset_and_low_projection (test_artifact.CanonicalExpansionTests.test_finite_path_reset_and_low_projection) ... ok
+test_monitor_viability_agrees_under_exact_contract (test_artifact.CanonicalExpansionTests.test_monitor_viability_agrees_under_exact_contract) ... ok
+test_parallel_length_one_chains_keep_edge_identity (test_artifact.CanonicalExpansionTests.test_parallel_length_one_chains_keep_edge_identity) ... ok
+test_parallel_shared_labels_long_short_roundtrip (test_artifact.CanonicalExpansionTests.test_parallel_shared_labels_long_short_roundtrip) ... ok
+test_visible_prefix_then_silent_continuation (test_artifact.CanonicalExpansionTests.test_visible_prefix_then_silent_continuation) ... ok
+test_dead_to_live_edge_must_not_be_omitted (test_artifact.CertificateTests.test_dead_to_live_edge_must_not_be_omitted) ... ok
+test_duplicate_json_fields (test_artifact.CertificateTests.test_duplicate_json_fields) ... ok
+test_empty_graph (test_artifact.CertificateTests.test_empty_graph) ... ok
+test_invalid_graph (test_artifact.CertificateTests.test_invalid_graph) ... ok
+test_missing_extra_and_duplicate_certificate_fields (test_artifact.CertificateTests.test_missing_extra_and_duplicate_certificate_fields) ... ok
+test_natural_ranks_and_full_domain (test_artifact.CertificateTests.test_natural_ranks_and_full_domain) ... ok
+test_all_small_unlabelled_graphs (test_artifact.MonitorTests.test_all_small_unlabelled_graphs) ... ok
+test_bad_arguments (test_artifact.MonitorTests.test_bad_arguments) ... ok
+test_empty_fair_set (test_artifact.MonitorTests.test_empty_fair_set) ... ok
+test_global_viability (test_artifact.MonitorTests.test_global_viability) ... ok
+test_goal_at_initial_state (test_artifact.MonitorTests.test_goal_at_initial_state) ... ok
+test_interleaving_encoding_unreachable_observations (test_artifact.MonitorTests.test_interleaving_encoding_unreachable_observations) ... ok
+test_overflow_is_not_equality (test_artifact.MonitorTests.test_overflow_is_not_equality) ... ok
+test_some_path_is_not_all_paths (test_artifact.MonitorTests.test_some_path_is_not_all_paths) ... ok
+test_source_disablement (test_artifact.MonitorTests.test_source_disablement) ... ok
+test_identity_all_debts (test_artifact.MorphismTests.test_identity_all_debts) ... ok
+test_input_validation (test_artifact.MorphismTests.test_input_validation) ... ok
+test_internal_gap_gate (test_artifact.MorphismTests.test_internal_gap_gate) ... ok
+test_nonreset_zero_block_impossible (test_artifact.MorphismTests.test_nonreset_zero_block_impossible) ... ok
+test_one_zero_profile_has_no_internal_pair (test_artifact.MorphismTests.test_one_zero_profile_has_no_internal_pair) ... ok
+test_overflow_is_absorbing_in_oracle (test_artifact.MorphismTests.test_overflow_is_absorbing_in_oracle) ... ok
+test_public_quantifier_counterexample (test_artifact.MorphismTests.test_public_quantifier_counterexample) ... ok
+test_suffix_requires_carried_debt (test_artifact.MorphismTests.test_suffix_requires_carried_debt) ... ok
+test_true_invalid_floor_includes_baseline_demands (test_artifact.MorphismTests.test_true_invalid_floor_includes_baseline_demands) ... ok
+test_two_reset_small_bound_exception (test_artifact.MorphismTests.test_two_reset_small_bound_exception) ... ok
+test_vector_exactness_need_not_be_coordinatewise_necessary (test_artifact.MorphismTests.test_vector_exactness_need_not_be_coordinatewise_necessary) ... ok
+test_wrong_initial_debt_changes_language (test_artifact.MorphismTests.test_wrong_initial_debt_changes_language) ... ok
+test_zero_bound_resetful_exception (test_artifact.MorphismTests.test_zero_bound_resetful_exception) ... ok
+test_complete_decision_packets (test_artifact.RegularContractTests.test_complete_decision_packets) ... ok
+test_contract_certificate_and_mutations (test_artifact.RegularContractTests.test_contract_certificate_and_mutations) ... ok
+test_decision_witness_directions_can_overlap (test_artifact.RegularContractTests.test_decision_witness_directions_can_overlap) ... ok
+test_exact_interval_and_lasso_witness (test_artifact.RegularContractTests.test_exact_interval_and_lasso_witness) ... ok
+test_initial_target_overflow_has_empty_forward_prefix (test_artifact.RegularContractTests.test_initial_target_overflow_has_empty_forward_prefix) ... ok
+test_input_validation_and_relabeling (test_artifact.RegularContractTests.test_input_validation_and_relabeling) ... ok
+test_regular_interval_matches_both_stateless_deciders (test_artifact.RegularContractTests.test_regular_interval_matches_both_stateless_deciders) ... ok
+test_stateful_interval_matches_product_oracle (test_artifact.RegularContractTests.test_stateful_interval_matches_product_oracle) ... ok
+test_three_symbol_annotations_roundtrip_and_oracle (test_artifact.RegularContractTests.test_three_symbol_annotations_roundtrip_and_oracle) ... ok
+test_transducer_composition_is_extensional (test_artifact.RegularContractTests.test_transducer_composition_is_extensional) ... ok
+test_zero_free_safe_cycle_has_infinite_ceiling (test_artifact.RegularContractTests.test_zero_free_safe_cycle_has_infinite_ceiling) ... ok
+
+----------------------------------------------------------------------
+Ran 48 tests in 0.767s
+
+OK

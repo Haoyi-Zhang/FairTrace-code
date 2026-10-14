@@ -6,7 +6,11 @@ The repository also contains a canonical microstep expansion of finite reactive 
 
 ## Reproduce the retained campaign
 
-Requirements: Linux, Python 3.10 or later, and the Python standard library. The reproduction commands run locally without installing packages or contacting external services. Run from this directory without `-O` or `PYTHONOPTIMIZE`:
+Requirements: Python 3.10 or later and the standard library. The default driver
+requires POSIX `resource` and retains its 3 GiB address-space limit. Windows
+can explicitly use `--portable`, which records missing limit/RSS as null.
+Commands run locally without packages or external services. Do not use
+`-O` or `PYTHONOPTIMIZE` for the assertion-based campaign:
 
 ```sh
 python3 -m unittest -v test_artifact
@@ -68,7 +72,16 @@ The direct floor evidence is retained in `results/stateless-floor-0.csv` through
 
 `results/campaign-resources.json` aggregates 22 retained stage executions: 73.176 CPU seconds, 73.186 wall seconds, one worker, a 3 GiB ceiling, and maximum RSS sample 104,876 KiB. They need not share one uninterrupted process lifetime. The RSS field is the invocation's process-lifetime peak sampled at stage completion, not an isolated-stage peak. These are retained resource records, not current measurements or performance comparisons.
 
-The paper's linear graph bounds describe abstract implementations with cached profiles, linear traversals and predecessor-based witnesses. The Python reference now lazily reuses one immutable profile per encountered `(control, symbol)` within each source-safe graph construction. Repeated live-set/reachability scans and path copying remain; dead-end elimination is quadratic on a chain. This bounded allocation change establishes no measured speedup or full linear implementation bound. The correctness contract and retained finite outcomes do not depend on realizing the abstract linear bound.
+The endpoint implementation reuses one immutable profile per encountered
+`(control, symbol)`, peels live vertices with a predecessor queue and stores
+debt-origin links instead of full per-relaxation paths. Its graph-operation
+bound is linear under unit-cost graph/arithmetic and amortized Python hashing;
+numeric bounds remain pseudo-polynomial. The independent oracle and positive
+reachability/certificate routines retain their separate repeated scans.
+`results/endpoint-cost/` retains the exact old source and all ten same-input
+cost fixtures, full raw samples, answers/witnesses and environment/source
+bindings. This is bounded implementation cost evidence, not production
+workload diversity, whole-synthesizer speedup or a new semantic theorem.
 
 Six supplemental tests run with `python -B -m unittest -v test_profile_reuse`
 and in the scientific workflow alongside the existing 48-test module. They
@@ -76,6 +89,31 @@ use a concrete-bit test-local reference and cover ceiling witnesses, fixed-bound
 decisions, local profile reuse, call isolation, state-budget boundaries and
 validation order. Historical 45/48-test receipts and 22-stage results remain
 separate; these regressions do not constitute a fresh full campaign.
+
+Eight additional owned graph/workflow methods use
+`python -B -m unittest -v test_linear_workflow`. All 62 current methods
+(48 + 6 + 8) pass in ordinary and optimized unittest modes. The campaign
+itself still rejects optimization, preserving its assertion guard.
+
+The new portable CLI actually executes all 22 stages:
+
+```sh
+python -B reproduce.py --portable --output NEW_DIRECTORY
+python -B check_reproduction.py results NEW_DIRECTORY
+```
+
+The actual Windows/Python 3.12.14 run in
+`results/portable-2026-10-14/` matches all 60 scientific files; per-stage
+resource records retain null address-space limit/RSS and actual CPU/wall
+measurements. They do not validate the unavailable POSIX backend or replace
+the retained Linux runs. Full runs refuse an existing output directory;
+stage resume requires a summary and refuses already recorded stages.
+Stage-mode environment records are stage-specific, preserving earlier
+invocation provenance.
+
+OpenAI Codex assisted with the queue/witness-link and portable-driver changes,
+their regressions/measurement tool, proof accounting and manuscript/docs.
+The corresponding nonidentifying formal disclosure is in the manuscript.
 
 ## Repository map
 
@@ -90,7 +128,7 @@ separate; these regressions do not constitute a fresh full campaign.
 | `regular_checks.py` | Deterministic complete finite families for the stateful algorithms, certificates, composition, and expansion. |
 | `morphisms.py`, `omega_oracle.py` | Closed-form one-state binary special case and an algorithmically distinct whole-omega-language oracle. |
 | `fairness.py`, `reference.py`, `certificates.py` | Debt monitors, finite reactive systems, graph queries, bisimulation, saturation, and generic live-set certificates. |
-| `reproduce.py` | One-worker 22-stage campaign driver with a 3 GiB address-space limit. |
+| `reproduce.py` | One-worker 22-stage driver: default POSIX 3 GiB limit; explicit portable mode records missing limits/RSS. |
 | `check_reproduction.py` | Semantic result comparator; resource files are excluded. |
 | `test_artifact.py` | Forty-eight unit, boundary, parser, relabeling, oracle, composition, certificate, endpoint, vector-mask, and expansion tests. |
 | `theory.md` | Standalone definitions, theorem statements, proof architecture, worked example, and scope. |

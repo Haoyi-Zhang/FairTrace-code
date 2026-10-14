@@ -1,0 +1,14 @@
+{
+  "address_space_limit_bytes": null,
+  "argv": [
+    "reproduce.py",
+    "--portable",
+    "--output",
+    "D:/CodexProjects/2026-07-13/new-chat-4/completion_workspace/library_review/private/substantive_library_completion/P037/portable-campaign"
+  ],
+  "assertions_enabled": true,
+  "executable": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "platform": "Windows-11-10.0.28000-SP0",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "resource_backend": "portable-no-posix-limit"
+}

@@ -108,7 +108,24 @@ Thus, in a topological order of `G1`, `D(v)` is the maximum of the initial seed,
 
 Every recurrence term is attainable by a source-safe prefix. Predecessor pointers yield a finite witness, and repetition of any reset-annotated symbol extends it to a fair infinite word without removing the already attained peak. Therefore the computed maximum equals the semantic supremum.
 
-The graph has at most `(B+1)|Q|` vertices and `(B+1)|Q||Sigma|` edges. With cached transition profiles, linear graph traversals, and predecessor-based witnesses, the abstract algorithm is linear in this graph plus the explicit output representation. The shipped Python reference caches block profiles by control state and input symbol within each invocation, but repeatedly removes dead ends and copies witness paths. Dead-end removal alone is quadratic on a zero-free chain; the abstract linear bound is not a bound for that implementation. The dependence on a binary-encoded `B` remains pseudo-polynomial.
+The graph has at most `(B+1)|Q|` vertices and `(B+1)|Q||Sigma|` edges.
+The endpoint implementation uses cached profiles, predecessor-queue peeling
+and one debt-origin link per vertex. Each edge occurrence is indexed once and
+retired once; a vertex is removed only when no surviving successor remains.
+Removed vertices cannot have infinite continuations, while every survivor
+has a surviving successor and thus an infinite path. Parallel symbol edges
+are counted with multiplicity. This realizes linear graph-operation work.
+
+Zero-free debt links follow topological predecessors with final values;
+reset seeds terminate in the source-safe breadth-first tree. Reconstruct
+only the selected peak: at most one tree path, one reset edge, one zero-free
+suffix and one peak edge, totaling at most twice the safe vertex count.
+No complete witness is copied during relaxation. Work/storage is linear in
+the safe graph plus explicit output representation under unit-cost indexed
+graph operations/arithmetic (Python hashing interpreted amortized).
+Binary-encoded bounds remain pseudo-polynomial and integer bit costs remain.
+Independent oracle, reachability checker and certificate generation still
+use separate repeated scans; this is not their complexity bound.
 
 ## 5. Invalid floor
 

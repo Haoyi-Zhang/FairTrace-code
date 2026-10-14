@@ -1,0 +1,79 @@
+{
+  "scope": "Exact current stage-function sources checked after the completed one-worker portable campaign; these files were unchanged during the recorded run.",
+  "files": [
+    {
+      "path": "fairness.py",
+      "sha256": "1996d8712beafb121e1c4dc635698d7bd32c07d698dfe36671ef0689dddbad29"
+    },
+    {
+      "path": "reference.py",
+      "sha256": "9793f15e89eb8d6277260e56c777daa95a6636a71325d303e1a2895bc363d9a0"
+    },
+    {
+      "path": "certificates.py",
+      "sha256": "3767292fdff51abdd9dffc589362355f9c7c26f6a5b88e136992d7e987c44959"
+    },
+    {
+      "path": "extended_checks.py",
+      "sha256": "4c41de9274139e63fd79901fbdbd2b3f1264d6850c6c86c247bd128e7edb4e8e"
+    },
+    {
+      "path": "regular_checks.py",
+      "sha256": "da0da76cb7e43c74ad72227a75110a35ac155bba0eeea9348c2e2bcebfc6075e"
+    },
+    {
+      "path": "transducers.py",
+      "sha256": "f114f92d4b88e0331af418e4ac029c5b19ad57a711d42fea525538dad58edeb3"
+    },
+    {
+      "path": "regular_contracts.py",
+      "sha256": "52aa229936f88e90aefc271a408ba46c0e09073c1cf5ac540a89636947a14a1c"
+    },
+    {
+      "path": "contract_oracle.py",
+      "sha256": "3cc4b15e432a208782be1a0a99ed7343966c22b7ab6787b9ee9ee23016e1bfe4"
+    },
+    {
+      "path": "contract_certificates.py",
+      "sha256": "b571ba9d18c853d3fe56cc43524f535b09f1ba635fa1539aa0a96ccb98b08fd6"
+    },
+    {
+      "path": "contract_decisions.py",
+      "sha256": "184f857625fb2656769fa74a7ddd443882bae78d3d2637e09fce5adae17f1fcc"
+    },
+    {
+      "path": "expansion.py",
+      "sha256": "2b0777728686dcfc4c0625e7506fc9a062ff6b3490e9b82cda3e423ee74e7a20"
+    },
+    {
+      "path": "morphisms.py",
+      "sha256": "6d1315a386f91d18c9d422e2b3ac2e9870b3f639f903103aa2e04d151d46ef1f"
+    },
+    {
+      "path": "omega_oracle.py",
+      "sha256": "3b311995659bab036af690e16b6c8e2f2f7e9b5cb9d9121d4d5ac041d83b3edf"
+    },
+    {
+      "path": "reproduce.py",
+      "sha256": "767fc759d3b6e4ecfe297844e5f0734a5ba9a9a8711575bdd5c0b2d96fbdd0dd"
+    }
+  ],
+  "origin": "Existing authored complete finite graph/transducer enumeration, not external production programs, real histories, targets or independent replication.",
+  "environment_record": "environment.json",
+  "resource_scope": "portable-no-posix-limit; POSIX RLIMIT_AS and RSS not executed, null retained.",
+  "comparison": {
+    "matched_scientific_files": 60,
+    "mismatches": 0,
+    "resource_comparison": "excluded: CPU, wall time and peak RSS are machine-dependent"
+  },
+  "campaign_stage_totals": {
+    "stages": 22,
+    "wall": 71.28969469995354,
+    "cpu": 70.65625,
+    "backend": [
+      "portable-no-posix-limit"
+    ],
+    "rss": [],
+    "limit": []
+  }
+}

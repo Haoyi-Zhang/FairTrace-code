@@ -1,0 +1,9 @@
+{
+  "address_space_limit_bytes": null,
+  "cpu_seconds": 0.859375,
+  "peak_rss_kib": null,
+  "resource_backend": "portable-no-posix-limit",
+  "stage": "annotated-expansions",
+  "wall_seconds": 0.8498860000108834,
+  "workers": 1
+}
