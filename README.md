@@ -13,13 +13,13 @@ Commands run locally without packages or external services. Do not use
 `-O` or `PYTHONOPTIMIZE` for the assertion-based campaign:
 
 ```sh
-python3 -m unittest -v test_artifact
+python3 -B -m unittest -v test_artifact test_profile_reuse test_linear_workflow
 python3 reproduce.py --output reproduced
 python3 check_reproduction.py results reproduced
 python3 certificates.py results/certificates/m017-b0.json
 ```
 
-The first command runs 48 tests, including regressions for overlapping negative directions, semantic invalid-floor thresholds, vector-coordinate masking, and parallel expansion chains with identical structural edges. It also checks an initially overflowing target debt, rejection of non-integer identifiers inside microstep chains, and visible-prefix/silent-continuation observation erasure. The second executes 22 deterministic stages in one process and writes a fresh directory. The third compares every deterministic CSV, JSON summary, exact input, and retained certificate packet; machine-dependent CPU, wall-time, and peak-RSS records are intentionally excluded. The final command exercises the independent command-line parser and local live-set checker on one retained graph certificate.
+The first command runs all 62 current methods: the 48-test core module, six profile-reuse regressions, and eight graph/workflow regressions. The core includes overlapping negative directions, semantic invalid-floor thresholds, vector-coordinate masking, parallel expansion chains with identical structural edges, initially overflowing target debt, typed chain identifiers, and silent-continuation observation erasure. The second executes 22 deterministic stages in one process and writes a fresh directory. The third compares every deterministic CSV, JSON summary, exact input, and retained certificate packet; machine-dependent CPU, wall-time, and peak-RSS records are intentionally excluded. The final command exercises the independent command-line parser and local live-set checker on one retained graph certificate.
 
 The campaign can be resumed one stage at a time:
 
@@ -94,6 +94,8 @@ Eight additional owned graph/workflow methods use
 `python -B -m unittest -v test_linear_workflow`. All 62 current methods
 (48 + 6 + 8) pass in ordinary and optimized unittest modes. The campaign
 itself still rejects optimization, preserving its assertion guard.
+The scientific workflow runs all three unittest modules separately before the
+22-stage campaign; their counts do not alter the retained campaign records.
 
 The new portable CLI actually executes all 22 stages:
 
