@@ -67,7 +67,6 @@ The stateful total combines three separately reported families:
 
 The three-symbol family is important: two source symbols can have the same fairness annotation while selecting different input classes and emitting different blocks. In the worked two-state machine they have the same next state at each control state, so category replacement does not change the control trajectory; the family still cannot be reduced to a morphism on the reset bit alone.
 
-
 The direct floor evidence is retained in `results/stateless-floor-0.csv` through `results/stateless-floor-4.csv`. Each row records the formula value, the independent fixed-bound reflection answers at `R-1` and `R`, and a reverse lasso accepted by the packet checker.
 
 `results/campaign-resources.json` aggregates 22 retained stage executions: 73.176 CPU seconds, 73.186 wall seconds, one worker, a 3 GiB ceiling, and maximum RSS sample 104,876 KiB. They need not share one uninterrupted process lifetime. The RSS field is the invocation's process-lifetime peak sampled at stage completion, not an isolated-stage peak. These are retained resource records, not current measurements or performance comparisons.
@@ -112,10 +111,6 @@ the retained Linux runs. Full runs refuse an existing output directory;
 stage resume requires a summary and refuses already recorded stages.
 Stage-mode environment records are stage-specific, preserving earlier
 invocation provenance.
-
-OpenAI Codex assisted with the queue/witness-link and portable-driver changes,
-their regressions/measurement tool, proof accounting and manuscript/docs.
-The corresponding nonidentifying formal disclosure is in the manuscript.
 
 ## Repository map
 
